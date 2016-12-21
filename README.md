@@ -184,6 +184,15 @@ Network and Internet
 * [weblocks][159] - An advanced web framework. [LLGPL][8]
 * [wookie][109] - Asynchronous HTTP server. [Expat][14].
 
+XML
+===
+
+* [CXML][70] - XML parser, with a range of extension libraries. [LLGPL][8].
+* [Plump][71] - A lenient XML parser. [Artistic License 2.0][51].
+* [s-xml][168] - A basic parser. [LLGPL][8].
+* [xmls][169] - A small, simple, non-validating XML parser. [3-clause BSD][15].
+
+
 Crypto
 ======
 
@@ -385,15 +394,6 @@ This contains anything which doesn't fit into another category.
 * [trivial-types][145] - Trivial type definitions. [LLGPL][8].
 * [trivial-utf8][119] - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
 * [ubiquitous][143] - A library providing easy-to-use persistent configuration storage. [Artistic License 2.0][51].
-
-
-XML
-===
-
-* [CXML][70] - XML parser, with a range of extension libraries. [LLGPL][8].
-* [Plump][71] - A lenient XML parser. [Artistic License 2.0][51].
-* [s-xml][168] - A basic parser. [LLGPL][8].
-* [xmls][169] - A small, simple, non-validating XML parser. [3-clause BSD][15].
 
 
 Contributing
