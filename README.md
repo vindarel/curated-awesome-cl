@@ -111,6 +111,8 @@ These are applications or bits of code that make development in Common Lisp easi
 
 * [quickapp-cli][189] - [quickapp][188] as a command-line utility. [3-clause BSD][15].
 * [SWIG][173] - A tool for generating FFI code from C/C++ header files. [GNU GPL3][2].
+* [quickapp][188] - A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. [3-clause BSD][15].
+* [quicksearch][140] - Look up online libraries from the REPL. [Expat][14].
 
 Web
 ===
@@ -337,8 +339,6 @@ This contains anything which doesn't fit into another category.
 * [Parenscript][102] - A translator from Common Lisp to Javascript. [3-clause BSD][15].
 * [parse-js][104] - A package for parsing ECMAScript 3. [zlib][33].
 * [puri-unicode][75] - Pure URI library with Unicode support. [LLGPL][8].
-* [quickapp][188] - A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. [3-clause BSD][15].
-* [quicksearch][140] - Look up online libraries from the REPL. [Expat][14].
 * [ratify][77] - A collection of utilities to ratify, validate and parse inputs. [Artistic License 2.0][51].
 * [Salza2][166] - A library for creating compressed data. [FreeBSD][39].
 * [serapeum][150] - Another general-purpose utility library. [Expat][14].
