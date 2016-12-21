@@ -188,7 +188,7 @@ XML
 ===
 
 * [CXML][70] - XML parser, with a range of extension libraries. [LLGPL][8].
-* [Plump][71] - A lenient XML parser. [Artistic License 2.0][51].
+* [Plump][71] - A lenient HTTP/XML parser, tolerand on malformed markup. [Artistic License 2.0][51].
 * [s-xml][168] - A basic parser. [LLGPL][8].
 * [xmls][169] - A small, simple, non-validating XML parser. [3-clause BSD][15].
 
