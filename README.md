@@ -65,6 +65,20 @@ Build Systems
 * [ASDF][131] - Another System Definition Facility; a build system for Common Lisp. [Expat][14].
 * [asdf-linguist][132] - Extensions for ASDF. [Expat][14].
 
+Text Editor Resources
+=====================
+
+This contains plugins and other goodies for various text editors.
+
+## Emacs ##
+
+* [SLIME][29] - Superior Lisp Interaction Mode for Emacs; a full-blown environment for Common Lisp inside of Emacs. Public domain.
+* [PORTACLE][201] - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
+
+## Vim ##
+
+* [SLIMV][187] - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
+
 Crypto
 ======
 
@@ -298,19 +312,6 @@ Regex
 * [cl-ppcre][68] - Portable, Perl-compatible regular expressions. [FreeBSD][39].
 
 
-Text Editor Resources
-=====================
-
-This contains plugins and other goodies for various text editors.
-
-## Emacs ##
-
-* [SLIME][29] - Superior Lisp Interaction Mode for Emacs; a full-blown environment for Common Lisp inside of Emacs. Public domain.
-* [PORTACLE][201] - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
-
-## Vim ##
-
-* [SLIMV][187] - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
 
 Tools
 =====
