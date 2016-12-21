@@ -299,9 +299,9 @@ Numerical and Scientific
 Parallelism and Concurrency
 ===========================
 
+* [cl-async][116] - A library for general-purpose, non-blocking programming, built on [libuv](https://github.com/libuv/libuv) (the library that powers Nodejs). [Expat][14].
 * [BordeauxThreads][171] - Portable, shared-state concurrency. [Expat][14].
 * [chanl][117] - Portable, channel-based concurrency. [Expat][14], with parts under [3-clause BSD][15].
-* [cl-async][116] - A library for general-purpose, non-blocking programming. [Expat][14].
 * [lesque][141] - A clone of Resque. Not available on Quicklisp. [Expat][14].
 * [lparallel][114] - A library for parallel programming. [3-clause BSD][15].
 * [Xecto][115] - A library for regular array parallelism. [3-clause BSD][15].
