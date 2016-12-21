@@ -124,10 +124,9 @@ HTTP clients
 HTTP Servers
 ------------
 * [aserve][110] - AllegroServe; a web server. [LLGPL][8].
-* [Clack][90] - A web application environment inspired by Rack and WSGI. [LLGPL][8].
+* [Clack][90] - A web application environment inspired by Rack and WSGI. [LLGPL][8]. Replaces Hunchentoot.
 * [clack-errors][94] - Error page middleware for Clack. [LLGPL][8].
 * [hermetic][95] - Security for Clack-based web applications. [Expat][14].
-* [hunchentoot][108] - A web server. [FreeBSD][39].
 * [wookie][109] - Asynchronous HTTP server. [Expat][14].
 
 Web frameworks
@@ -521,7 +520,6 @@ an issue to add a new framework, library or software to the list.
 [105]: https://github.com/eudoxia0/avatar-api
 [106]: https://github.com/Shinmera/chirp
 [107]: https://github.com/Shinmera/humbler
-[108]: http://weitz.de/hunchentoot/
 [109]: https://github.com/orthecreedence/wookie
 [110]: https://github.com/franzinc/aserve
 [111]: http://weitz.de/cl-fad/
