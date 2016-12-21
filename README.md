@@ -152,6 +152,7 @@ HTTP Servers
 Web frameworks
 --------------
 * [Caveman][92] - A powerful web framework. [LLGPL][8].
+  Example projects: [Quickdocs](https://github.com/quickdocs)
 * [hh-web][183] - Framework for building modern web apps. [Expat][14].
 * [ningle][93] - A super-micro web framework. [LLGPL][8].
 * [radiance][91] - An extensible framework library and multi-application CMS. [Artistic License 2.0][51].
