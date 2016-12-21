@@ -27,6 +27,7 @@ is provided in the LICENSE file.
 **Table of Contents**
 
 - [My Curated Awesome Common Lisp](#my-curated-awesome-common-lisp)
+- [Community](#community)
 - [Development Environments](#development-environments)
 - [Text Editor Resources](#text-editor-resources)
     - [Emacs](#emacs)
@@ -80,6 +81,15 @@ is provided in the LICENSE file.
 
 <!-- markdown-toc end -->
 
+Community
+=========
+
+* [Quickdocs](https://www.reddit.com/r/lisp/) - Ready and up to date documentation for all Common Lisp projects.
+* [Cliki](http://www.cliki.net) - the Common Lisp wiki
+* [Articulate Common Lisp](http://articulate-lisp.com/) - How to write Common Lisp in 2015. An initiation manual for the uninitiated.
+* [Reddit](https://www.reddit.com/r/lisp/)
+
+And see below, learning and tutorials.
 
 Development Environments
 ========================
