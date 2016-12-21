@@ -14,7 +14,6 @@ modified following the ideas:
   is replaced by Dexador.
 - justifications come a lot from the [State of the Common Lisp Ecosystem, 2015](http://eudoxia.me/article/common-lisp-sotu-2015).
 - refer to the Awesome List, to Quickdocs or Cliki
-- exclude anything not in Quicklisp
 
 Add something new! See the [contributing](#contributing) section for adding something to the
 list.
