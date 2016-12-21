@@ -47,7 +47,7 @@ is provided in the LICENSE file.
     - [Others](#others)
 - [XML](#xml)
 - [JSON](#json)
-- [Database](#database)
+- [Database and ORMs](#database-and-orms)
 - [Foreign Function Interface](#foreign-function-interface)
 - [Game Development](#game-development)
 - [Graphics](#graphics)
@@ -217,10 +217,12 @@ JSON
 * [jsown][76] - A reader and writer for the JSON format. [Expat][14].
 
 
-Database
-========
+Database and ORMs
+=================
 
 * [cl-dbi][34] - A database-independent interface for Common Lisp. [LLGPL][8].
+* [sxql][23] - A DSL for generating SQL. [3-clause BSD][15].
+* [crane][42] - Another ORM. [Expat][14].
 * [cl-memcached][40] - Fast, thread-safe interface to the Memcached object caching system. [Expat][14].
 * [cl-mongo][36] - MongoDB client. [Expat][14].
 * [cl-redis][35] - Redis client. [Expat][14].
@@ -230,11 +232,9 @@ Database
 * [clsql][186] - An SQL database with a Common Lisp interface. [LLGPL][8].
 * [clache][41] - General caching facility. No license specified.
 * [clouchdb][38] - Library for interacting with CouchDB. [FreeBSD][39].
-* [crane][42] - Another ORM. [Expat][14].
 * [datafly][30] - A lightweight database library. [3-clause BSD][15].
 * [mito][31] - An ORM for Common Lisp with migrations, relationships and PostgreSQL support [LLGPL][8].
 * [postmodern][32] - A library for interacting with PostgreSQL. [zlib][33].
-* [sxql][23] - A DSL for generating SQL. [3-clause BSD][15].
 
 
 Foreign Function Interface
