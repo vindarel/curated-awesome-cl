@@ -255,7 +255,7 @@ Network and Internet
 * [colleen][82] - IRC bot with a modular framework. [Artistic License 2.0][51].
 * [css-lite][185] - A CSS grammar. [Expat][14].
 * [Djula][100] - A port of Django's template engine to Common Lisp. [Expat][14].
-* [Dexador][199] - An HTTP client, that aims at replacing Drakma. [MIT][200].
+* [Dexador][199] - An HTTP client, that aims at [replacing Drakma](http://quickdocs.org/dexador/). [MIT][200].
 * [eco][98] - Fast, flexible, designer-friendly template engine. [Expat][14].
 * [hermetic][95] - Security for Clack-based web applications. [Expat][14].
 * [hh-web][183] - Framework for building modern web apps. [Expat][14].
