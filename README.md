@@ -128,6 +128,7 @@ HTTP Servers
 * [clack-errors][94] - Error page middleware for Clack. [LLGPL][8].
 * [hermetic][95] - Security for Clack-based web applications. [Expat][14].
 * [wookie][109] - Asynchronous HTTP server. [Expat][14].
+* [woo](https://github.com/fukamachi/woo) - A fast non-blocking HTTP server on top of libev. [MIT][200].
 
 Web frameworks
 --------------
