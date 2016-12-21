@@ -135,6 +135,9 @@ Web frameworks
 * [hh-web][183] - Framework for building modern web apps. [Expat][14].
 * [ningle][93] - A super-micro web framework. [LLGPL][8].
 * [radiance][91] - An extensible framework library and multi-application CMS. [Artistic License 2.0][51].
+* [Lucerne](https://github.com/eudoxia0/lucerne) - A minimal web framework built on Clack, inspired by Flask. [MIT][200].
+
+There are more projects, more or less discontinued but interesting. See the other ressources.
 
 Parsing html
 ------------
