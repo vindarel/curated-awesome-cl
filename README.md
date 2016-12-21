@@ -59,6 +59,11 @@ sellers who aren't evil for physical resources.
 - [Contributing](#contributing)
 
 
+Development Environments
+========================
+
+* [PORTACLE][201] - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
+
 Build Systems
 =============
 
