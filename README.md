@@ -64,12 +64,6 @@ Development Environments
 
 * [PORTACLE][201] - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
 
-Build Systems
-=============
-
-* [ASDF][131] - Another System Definition Facility; a build system for Common Lisp. [Expat][14].
-* [asdf-linguist][132] - Extensions for ASDF. [Expat][14].
-
 Text Editor Resources
 =====================
 
@@ -147,6 +141,12 @@ Implementations
 * [SBCL][12] - A fork of CMUCL; compiles to machine code. [Standard compliance][13]. Public domain, with some parts under [Expat][14] and [3-clause BSD][15]. Just use it if you don't know.
 
 But there are more, see other ressources.
+
+Build Systems
+=============
+
+* [ASDF][131] - Another System Definition Facility; a build system for Common Lisp. [Expat][14].
+* [asdf-linguist][132] - Extensions for ASDF. [Expat][14].
 
 Crypto
 ======
