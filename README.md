@@ -281,8 +281,6 @@ Regex
 * [cl-ppcre][68] - Portable, Perl-compatible regular expressions. [FreeBSD][39].
 
 
-
-
 Unit Testing
 ============
 
@@ -295,6 +293,14 @@ Unit Testing
 
 Utilities
 =========
+
+Language extensions
+-------------------
+
+* [cl21][125] - An experimental project to move Common Lisp into the 21st century, fixing a lot of CL quirks. [Expat][14].
+
+Other
+-----
 
 This contains anything which doesn't fit into another category.
 
@@ -313,7 +319,6 @@ This contains anything which doesn't fit into another category.
 * [cl-locale][121] - A simple i18n library. [LLGPL][8].
 * [cl-project][136] - General modern project skeletons. [LLGPL][8].
 * [cl-syntax][126] - Reader syntax conventions. [LLGPL][8].
-* [cl21][125] - An experimental project to move Common Lisp into the 21st century. [Expat][14].
 * [closer-mop][162] - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
 * [envy][142] - Configuration switcher. [FreeBSD][39].
 * [esrap][69] - Packrat parser. [Expat][14].
