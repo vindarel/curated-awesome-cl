@@ -199,13 +199,6 @@ XML
 * [xmls][169] - A small, simple, non-validating XML parser. [3-clause BSD][15].
 
 
-Crypto
-======
-
-* [crypto-shortcuts][50] - Collection of common crypto shortcuts. [Artistic License 2.0][51].
-* [Ironclad][49] - A library of crypto functions for Common Lisp. Not considered secure, but is still useful for the message digest functions. [Expat][14].
-* [trivial-ssh][81] - An SSH client library. [Expat][14].
-
 Database
 ========
 
@@ -400,6 +393,13 @@ This contains anything which doesn't fit into another category.
 * [trivial-types][145] - Trivial type definitions. [LLGPL][8].
 * [trivial-utf8][119] - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
 * [ubiquitous][143] - A library providing easy-to-use persistent configuration storage. [Artistic License 2.0][51].
+
+Crypto
+======
+
+* [crypto-shortcuts][50] - Collection of common crypto shortcuts. [Artistic License 2.0][51].
+* [Ironclad][49] - A library of crypto functions for Common Lisp. Not considered secure, but is still useful for the message digest functions. [Expat][14].
+* [trivial-ssh][81] - An SSH client library. [Expat][14].
 
 
 Contributing
