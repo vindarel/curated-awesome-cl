@@ -135,7 +135,6 @@ Web frameworks
 * [hh-web][183] - Framework for building modern web apps. [Expat][14].
 * [ningle][93] - A super-micro web framework. [LLGPL][8].
 * [radiance][91] - An extensible framework library and multi-application CMS. [Artistic License 2.0][51].
-* [weblocks][159] - An advanced web framework. [LLGPL][8]
 
 Parsing html
 ------------
@@ -570,7 +569,6 @@ an issue to add a new framework, library or software to the list.
 [156]: http://letoverlambda.com/
 [157]: http://norvig.com/paip.html
 [158]: https://common-lisp.net/project/anaphora/
-[159]: http://weblocks-framework.info/
 [160]: http://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html
 [161]: http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html
 [162]: http://cliki.net/closer-mop
