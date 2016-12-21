@@ -83,63 +83,6 @@ This contains plugins and other goodies for various text editors.
 
 * [SLIMV][187] - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
 
-Learning and Tutorials
-=====================
-
-## Online ##
-
-Beginner
---------
-
-* [Learn X in Y minutes | Where X = Common Lisp][195] - Small Common Lisp tutorial covering the essentials.
-* [Practical Common Lisp][17] - A good introductory text to Common Lisp, with practical examples.
-* [Common LISP: A Gentle Introduction to Symbolic Computation][161] - A nice introduction into the language.
-* [Learn LISP: Simply Easy Learning][196] - A good set of introductory tutorials; includes interactive examples.
-* [Common Lisp Koans][197] - The project guides the learner progressively through many Common Lisp language features.
-
-Intermediate
-------------
-
-* [Common Lisp tips][152] - A blog with useful tips and tricks.
-* [CommonQt tutorial][154] - A nice introduction to CommonQt.
-* [A tutorial for creating and publishing open-source Common Lisp software][27] - A handy tutorial for using Quicklisp and a bunch of other tools to create and publish a project in Common Lisp.
-
-Advanced
---------
-
-* [Let Over Lambda][156] - A book on advanced macro techniques. The first six chapters are available online.
-* [On Lisp][26] - Paul Graham's amazing book on Lisp macros (and other interesting things).
-
-Reference
----------
-
-* [Common Lisp Quick Reference][25] - A distilled, pocket-size version of the ANSI CL spec. Available for download as a PDF.
-* [CLHS][22] - The Common Lisp HyperSpec; the ANSI CL standard, in hypertext form.
-* [Common Lisp the Langauge][160] - The original standard for Common Lisp before the ANSI spec.
-* [Minispec][24] - A friendlier, but less-complete, version of CLHS. Also contains documentation for some commonly-used CL libraries (such as Alexandria).
-* [Quickdocs][28] - A reference for the libraries provided by Quicklisp.
-
-## Offline ##
-
-Beginner
---------
-
-* [Land of Lisp][18] - A fun, game-oriented introduction to Common Lisp.
-* [Practical Common Lisp][17] - A good introductory text to Common Lisp, with practical examples.
-* [Common Lisp Koans][197] - The project guides the learner progressively through many Common Lisp language features.
-
-Intermediate
-------------
-
-* [ANSI Common Lisp][19] - A thorough, practical covering of the entire language, with exercises. Not recommended as a starter text, due to [some caveats][20].
-
-Advanced
---------
-
-* [Let Over Lambda][156] - A book on advanced macro techniques. All eight chapters are available in the print copy.
-* [Object-Oriented Programming in Common Lisp: A Programmer's Guide to CLOS][21] - An old, but very thorough book on CLOS.
-* [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp][157] - A book on programming AI that covers some advanced Lisp.
-
 Implementations
 ===============
 
@@ -380,6 +323,63 @@ Crypto
 * [crypto-shortcuts][50] - Collection of common crypto shortcuts. [Artistic License 2.0][51].
 * [Ironclad][49] - A library of crypto functions for Common Lisp. Not considered secure, but is still useful for the message digest functions. [Expat][14].
 * [trivial-ssh][81] - An SSH client library. [Expat][14].
+
+Learning and Tutorials
+=====================
+
+## Online ##
+
+Beginner
+--------
+
+* [Learn X in Y minutes | Where X = Common Lisp][195] - Small Common Lisp tutorial covering the essentials.
+* [Practical Common Lisp][17] - A good introductory text to Common Lisp, with practical examples.
+* [Common LISP: A Gentle Introduction to Symbolic Computation][161] - A nice introduction into the language.
+* [Learn LISP: Simply Easy Learning][196] - A good set of introductory tutorials; includes interactive examples.
+* [Common Lisp Koans][197] - The project guides the learner progressively through many Common Lisp language features.
+
+Intermediate
+------------
+
+* [Common Lisp tips][152] - A blog with useful tips and tricks.
+* [CommonQt tutorial][154] - A nice introduction to CommonQt.
+* [A tutorial for creating and publishing open-source Common Lisp software][27] - A handy tutorial for using Quicklisp and a bunch of other tools to create and publish a project in Common Lisp.
+
+Advanced
+--------
+
+* [Let Over Lambda][156] - A book on advanced macro techniques. The first six chapters are available online.
+* [On Lisp][26] - Paul Graham's amazing book on Lisp macros (and other interesting things).
+
+Reference
+---------
+
+* [Common Lisp Quick Reference][25] - A distilled, pocket-size version of the ANSI CL spec. Available for download as a PDF.
+* [CLHS][22] - The Common Lisp HyperSpec; the ANSI CL standard, in hypertext form.
+* [Common Lisp the Langauge][160] - The original standard for Common Lisp before the ANSI spec.
+* [Minispec][24] - A friendlier, but less-complete, version of CLHS. Also contains documentation for some commonly-used CL libraries (such as Alexandria).
+* [Quickdocs][28] - A reference for the libraries provided by Quicklisp.
+
+## Offline ##
+
+Beginner
+--------
+
+* [Land of Lisp][18] - A fun, game-oriented introduction to Common Lisp.
+* [Practical Common Lisp][17] - A good introductory text to Common Lisp, with practical examples.
+* [Common Lisp Koans][197] - The project guides the learner progressively through many Common Lisp language features.
+
+Intermediate
+------------
+
+* [ANSI Common Lisp][19] - A thorough, practical covering of the entire language, with exercises. Not recommended as a starter text, due to [some caveats][20].
+
+Advanced
+--------
+
+* [Let Over Lambda][156] - A book on advanced macro techniques. All eight chapters are available in the print copy.
+* [Object-Oriented Programming in Common Lisp: A Programmer's Guide to CLOS][21] - An old, but very thorough book on CLOS.
+* [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp][157] - A book on programming AI that covers some advanced Lisp.
 
 
 Contributing
