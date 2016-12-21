@@ -248,7 +248,7 @@ Foreign Function Interface
 Game Development
 ================
 
-* [Xelf][67] - Extensible game library. Not available on Quicklisp. [GNU LGPL2.1][11].
+* see the awesome list. Nothing in Quicklisp.
 
 Graphics
 ========
