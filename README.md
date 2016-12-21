@@ -2,21 +2,27 @@
   <img src="http://i.imgur.com/jLVXhpc.png">
 </div>
 
-# Awesome Common Lisp 
+# My Curated Awesome Common Lisp
 
-A curated list of _awesome_ Common Lisp stuff.
+A curated list of _awesome_ Common Lisp stuff, curated for beginners.
+
+Forked from the
+[Awesome Common Lisp](https://github.com/CodyReichert/awesome-cl) and
+modified following the ideas:
+- useful things (for beginners) first: dev environment comes first, crypto last.
+- prefer libraries that are superseeded by new and better ones: Drakma
+  is replaced by Dexador.
+- justifications come a lot from the [State of the Common Lisp Ecosystem, 2015](http://eudoxia.me/article/common-lisp-sotu-2015).
+- refer to the Awesome List, to Quickdocs or Cliki
+- exclude anything not in Quicklisp
 
 Add something new! See the [contributing](#contributing) section for adding something to the
 list.
 
-All libraries listed here are available from [Quicklisp][16] unless
-stated otherwise.
+All libraries listed here are available from [Quicklisp][16].
 
 This is released under the GNU Free Documentation License - its text
-is provided in the LICENSE file. This repository is also mirrored on
-[NotABug](https://notabug.org/CodyReichert/awesome-cl) - a **fully-free** (as in libre)
-alternative to Github.  Preference is given to [free software][13] and
-sellers who aren't evil for physical resources.
+is provided in the LICENSE file.
 
 **Table of Contents**
 - [Awesome Common Lisp](#awesome-common-lisp)
