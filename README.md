@@ -315,6 +315,8 @@ Language extensions
 * [optima][146] - Optimized pattern-matching library. [LLGPL][8].
 * [iterate][139] - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
 * [glyphs][153] - A library for cutting down the verboseness of Common Lisp in places. [GNU GPL3][2].
+* [arrow-macros](https://github.com/hipeta/arrow-macros/) - clojure-like arrow macros (ex. ->, ->>) and diamond wands in [swiss-arrows](https://github.com/rplevy/swiss-arrows). Threading macros, pipe. [MIT][200].
+* [cl-arrows](https://github.com/nightfly19/cl-arrows) - Common Lisp implementation of Clojure's threading macros.
 
 I/O
 ---
