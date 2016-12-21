@@ -103,6 +103,14 @@ Library Manager
 * [Quicklisp][16] - A library manager containing many libraries, with easy depencency management. [Expat][14].
 * [Quickutil][134] - A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. [3-clause BSD][15].
 
+Tools
+=====
+
+These are applications or bits of code that make development in Common Lisp easier without being Common Lisp libraries themselves.
+
+* [quickapp-cli][189] - [quickapp][188] as a command-line utility. [3-clause BSD][15].
+* [SWIG][173] - A tool for generating FFI code from C/C++ header files. [GNU GPL3][2].
+
 Network and Internet
 ====================
 
@@ -244,14 +252,6 @@ Regex
 * [cl-ppcre][68] - Portable, Perl-compatible regular expressions. [FreeBSD][39].
 
 
-
-Tools
-=====
-
-These are applications or bits of code that make development in Common Lisp easier without being Common Lisp libraries themselves.
-
-* [quickapp-cli][189] - [quickapp][188] as a command-line utility. [3-clause BSD][15].
-* [SWIG][173] - A tool for generating FFI code from C/C++ header files. [GNU GPL3][2].
 
 
 Unit Testing
