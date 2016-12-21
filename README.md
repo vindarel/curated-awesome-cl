@@ -112,39 +112,65 @@ These are applications or bits of code that make development in Common Lisp easi
 * [quickapp-cli][189] - [quickapp][188] as a command-line utility. [3-clause BSD][15].
 * [SWIG][173] - A tool for generating FFI code from C/C++ header files. [GNU GPL3][2].
 
-Network and Internet
-====================
+Web
+===
 
+See [Cliki](http://www.cliki.net/Web) !
+
+HTTP clients
+------------
+* [Dexador][199] - An HTTP client, that aims at [replacing Drakma](http://quickdocs.org/dexador/). [MIT][200].
+
+HTTP Servers
+------------
 * [aserve][110] - AllegroServe; a web server. [LLGPL][8].
-* [avatar-api][105] - Get avatars from Google+, Gravatar and others. [Expat][14].
+* [Clack][90] - A web application environment inspired by Rack and WSGI. [LLGPL][8].
+* [clack-errors][94] - Error page middleware for Clack. [LLGPL][8].
+* [hermetic][95] - Security for Clack-based web applications. [Expat][14].
+* [hunchentoot][108] - A web server. [FreeBSD][39].
+* [wookie][109] - Asynchronous HTTP server. [Expat][14].
+
+Web frameworks
+--------------
 * [Caveman][92] - A powerful web framework. [LLGPL][8].
+* [hh-web][183] - Framework for building modern web apps. [Expat][14].
+* [ningle][93] - A super-micro web framework. [LLGPL][8].
+* [radiance][91] - An extensible framework library and multi-application CMS. [Artistic License 2.0][51].
+* [weblocks][159] - An advanced web framework. [LLGPL][8]
+
+Parsing html
+------------
+* [http-parse][73] - An HTTP parser in Common Lisp. [Expat][14].
+* [Plump][71] - A lenient HTTP/XML parser, tolerand on malformed markup. [Artistic License 2.0][51]. Best used with [lquery][72] and [clss][202].
+
+Querying HTML/DOM
+-----------------
+* [lquery][72] - A jQuery-like HTML/DOM manipulation library. [Artistic License 2.0][51].
+
+
+HTML generators and templates
+-----------------------------
+* [cl-who][184] - An HTML generator. [FreeBSD][39].
+* [spinneret][191] - Common Lisp HTML5 generator. [Expat][14].
+* [cl-markup][101] - Modern markup generation library. [LLGPL][8].
+* [Djula][100] - A port of Django's template engine to Common Lisp. [Expat][14].
+* [eco][98] - Fast, flexible, designer-friendly template engine. [Expat][14].
+
+Others
+------
+
+* [avatar-api][105] - Get avatars from Google+, Gravatar and others. [Expat][14].
 * [chirp][106] - A Twitter client library. [Artistic License 2.0][51].
 * [cl-closure-template][99] - Implementation of Google's Closure templates. [LLGPL][8].
 * [cl-irc][83] - An IRC client library. [Expat][14].
-* [cl-markup][101] - Modern markup generation library. [LLGPL][8].
 * [cl-openid][96] - An implementation of OpenID. [LLGPL][8].
-* [cl-who][184] - An HTML generator. [FreeBSD][39].
 * [cl-ses][193] - Library for AWS SES. [Expat][14].
-* [spinneret][191] - Common Lisp HTML5 generator. [Expat][14].
-* [Clack][90] - A web application environment inspired by Rack and WSGI. [LLGPL][8].
-* [clack-errors][94] - Error page middleware for Clack. [LLGPL][8].
 * [colleen][82] - IRC bot with a modular framework. [Artistic License 2.0][51].
 * [css-lite][185] - A CSS grammar. [Expat][14].
-* [Djula][100] - A port of Django's template engine to Common Lisp. [Expat][14].
-* [Dexador][199] - An HTTP client, that aims at [replacing Drakma](http://quickdocs.org/dexador/). [MIT][200].
-* [eco][98] - Fast, flexible, designer-friendly template engine. [Expat][14].
-* [hermetic][95] - Security for Clack-based web applications. [Expat][14].
-* [hh-web][183] - Framework for building modern web apps. [Expat][14].
-* [http-parse][73] - An HTTP parser in Common Lisp. [Expat][14].
 * [humbler][107] - A Tumblr API interface. [Artistic License 2.0][51].
-* [hunchentoot][108] - A web server. [FreeBSD][39].
-* [lquery][72] - A jQuery-like HTML/DOM manipulation library. [Artistic License 2.0][51].
-* [ningle][93] - A super-micro web framework. [LLGPL][8].
 * [Postmaster][80] - A simple, easy-to-use SMTP/IMAP library. [Expat][14].
-* [radiance][91] - An extensible framework library and multi-application CMS. [Artistic License 2.0][51].
 * [usocket][79] - A portable TCP and UDP socket interface. [Expat][14].
-* [weblocks][159] - An advanced web framework. [LLGPL][8]
-* [wookie][109] - Asynchronous HTTP server. [Expat][14].
+
 
 XML
 ===
