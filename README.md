@@ -324,6 +324,8 @@ Regex
 
 * [cl-ppcre][68] - Portable, Perl-compatible regular expressions. [FreeBSD][39].
 
+See also fixes in CL21 below.
+
 
 Unit Testing
 ============
