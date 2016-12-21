@@ -84,6 +84,13 @@ This contains plugins and other goodies for various text editors.
 
 * [SLIMV][187] - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
 
+Implementations
+===============
+
+* [SBCL][12] - A fork of CMUCL; compiles to machine code. [Standard compliance][13]. Public domain, with some parts under [Expat][14] and [3-clause BSD][15]. Just use it if you don't know.
+
+But there are more, see other ressources.
+
 Crypto
 ======
 
@@ -164,17 +171,6 @@ GUI
 * [CommonQt][64] - A Common Lisp binding for Qt4 via QtSmoke. [FreeBSD][39].
 * [ltk][179] - A binding for the Tk toolkit. [LLGPL][8] or [GNU LGPL2.1][11].
 * [ceramic][192] - Desktop web apps with Common Lisp. [Expat][14].
-
-Implementations
-===============
-
-* [ABCL][1] - Armed Bear Common Lisp; targets the JVM, compiles to bytecode. [Standard conformance][4]. [GNU GPL3][2] with [Classpath exception][3].
-* [CCL][7] - Clozure Common Lisp; compiler-only implementation, generates native code.  [LLGPL][8].
-* [CMUCL][9] - An implementation from Carnegie Mellon University. Public domain.
-* [ECL][10] - Embeddable Common Lisp; compiles to C. [GNU LGPL2.1][11].
-* [GCL][190] - Another GNU implementation; not yet fully ANSI-compliant. [GNU LGPL2.1][11].
-* [GNU CLISP][5] - A GNU implementation; contains a compiler and an interpreter. [Standard conformance][6]. [GNU GPL3][2].
-* [SBCL][12] - A fork of CMUCL; compiles to machine code. [Standard compliance][13]. Public domain, with some parts under [Expat][14] and [3-clause BSD][15].
 
 JSON
 ====
