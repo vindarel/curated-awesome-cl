@@ -99,6 +99,7 @@ Build Systems
 Library Manager
 ===============
 
+* [Roswell](https://github.com/roswell/roswell) - A Lisp implementation installer, script launcher and more. [MIT][200].
 * [qlot][135] - A project-local library installer, similar to Bundler or Carton. [Expat][14].
 * [Quicklisp][16] - A library manager containing many libraries, with easy depencency management. [Expat][14].
 * [Quickutil][134] - A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. [3-clause BSD][15].
