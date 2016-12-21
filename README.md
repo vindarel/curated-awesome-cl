@@ -198,6 +198,12 @@ XML
 * [s-xml][168] - A basic parser. [LLGPL][8].
 * [xmls][169] - A small, simple, non-validating XML parser. [3-clause BSD][15].
 
+JSON
+====
+
+* [cl-json][75] - A JSON encoder and decoder. [Expat][14].
+* [jsown][76] - A reader and writer for the JSON format. [Expat][14].
+
 
 Database
 ========
@@ -272,12 +278,6 @@ GUI
 * [CommonQt][64] - A Common Lisp binding for Qt4 via QtSmoke. [FreeBSD][39].
 * [ltk][179] - A binding for the Tk toolkit. [LLGPL][8] or [GNU LGPL2.1][11].
 * [ceramic][192] - Desktop web apps with Common Lisp. [Expat][14].
-
-JSON
-====
-
-* [cl-json][75] - A JSON encoder and decoder. [Expat][14].
-* [jsown][76] - A reader and writer for the JSON format. [Expat][14].
 
 
 Library Manager
