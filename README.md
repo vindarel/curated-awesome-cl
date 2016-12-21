@@ -188,7 +188,7 @@ XML
 ===
 
 * [CXML][70] - XML parser, with a range of extension libraries. [LLGPL][8].
-* [Plump][71] - A lenient HTTP/XML parser, tolerand on malformed markup. [Artistic License 2.0][51].
+* [Plump][71] - A lenient HTTP/XML parser, tolerand on malformed markup. [Artistic License 2.0][51]. Best used with [lquery][72] and [clss][202].
 * [s-xml][168] - A basic parser. [LLGPL][8].
 * [xmls][169] - A small, simple, non-validating XML parser. [3-clause BSD][15].
 
@@ -602,3 +602,4 @@ an issue to add a new framework, library or software to the list.
 [199]: https://github.com/fukamachi/dexador
 [200]: https://opensource.org/licenses/MIT
 [201]: https://shinmera.github.io/portacle/
+[202]: https://github.com/Shinmera/CLSS
