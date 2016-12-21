@@ -184,8 +184,6 @@ Network and Internet
 * [ningle][93] - A super-micro web framework. [LLGPL][8].
 * [Postmaster][80] - A simple, easy-to-use SMTP/IMAP library. [Expat][14].
 * [radiance][91] - An extensible framework library and multi-application CMS. [Artistic License 2.0][51].
-* [saluto][97] - OAuth 2.0 module for the RESTAS web framework. Not available on Quicklisp. [3-clause BSD][15].
-* [sytes][182] - A library for making simple websites quickly. Not available on Quicklisp. No license specified.
 * [usocket][79] - A portable TCP and UDP socket interface. [Expat][14].
 * [weblocks][159] - An advanced web framework. [LLGPL][8]
 * [wookie][109] - Asynchronous HTTP server. [Expat][14].
@@ -228,22 +226,8 @@ Database
 Foreign Function Interface
 ==========================
 
-## C ##
+See the Awesome List.
 
-* [CFFI][43] - Portable, easy-to-use C foreign function interface. [Expat][14].
-* [cl-autowrap][44] - Automatically parses header files into CFFI definitions. [FreeBSD][39].
-
-## Java ##
-
-* [cl+j][45] - A JNI-based interface to a JVM via CFFI. Not available on Quicklisp. Does not reliably work with all implementations. [Expat][14].
-
-## Miscellaneous ##
-
-* [Foil][46] - A foreign object interface; works with the JVM and CLI. Not available on Quicklisp. [CPL 1.0][47].
-
-## Python ##
-
-* [burgled-batteries][48] - A bridge between Python and Common Lisp. Not available on Quicklisp. No license specified.
 
 Game Development
 ================
@@ -257,15 +241,12 @@ These are libraries for working with graphics, rather than making GUIs (i.e. wid
 
 * [cl-cairo2][53] - Cairo bindings. [Boost 1.0][54]
 * [cl-gd][61] - A library providing an interface to the GD graphics library. [FreeBSD][39].
-* [cl-horde3d][58] - FFI bindings to the Horde3D graphics library. Not available on Quicklisp. [EPL 1.0][59]
 * [cl-opengl][163] - CFFI bindings to OpenGL, GLU and GLUT APIs. [3-clause BSD][15].
 * [cl-sdl2][60] - Bindings for SDL2 using C2FFI. [Expat][14].
 * [cl-svg][57] - A basic library for producing SVG files. [Expat][14].
 * [CLinch][63] - Common Lisp 2D/3D graphics engine for OpenGL. [FreeBSD][39].
 * [donuts][138] - Graph drawing DSL for Common Lisp. [Expat][14].
 * [lispbuilder-sdl][180] - A set of bindings for SDL. [Expat][14].
-* [okra][62] - CFFI bindings to Ogre. Not available on Quicklisp. [3-clause BSD][15].
-* [Varjo][52] - Lisp to GLSL translator. Not available on Quicklisp. [LLGPL][8].
 * [Vecto][55] - Simple vector drawing library. [FreeBSD][39].
 * [zpng][56] - A library for creating PNG files. [FreeBSD][39].
 
