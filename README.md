@@ -255,7 +255,6 @@ Network and Internet
 * [colleen][82] - IRC bot with a modular framework. [Artistic License 2.0][51].
 * [css-lite][185] - A CSS grammar. [Expat][14].
 * [Djula][100] - A port of Django's template engine to Common Lisp. [Expat][14].
-* [Drakma][78] - An HTTP client. [FreeBSD][39].
 * [Dexador][199] - An HTTP client, that aims at replacing Drakma. [MIT][200].
 * [eco][98] - Fast, flexible, designer-friendly template engine. [Expat][14].
 * [hermetic][95] - Security for Clack-based web applications. [Expat][14].
@@ -478,7 +477,6 @@ an issue to add a new framework, library or software to the list.
 [75]: https://github.com/hankhero/cl-json
 [76]: https://github.com/madnificent/jsown
 [77]: https://github.com/Shinmera/ratify
-[78]: http://weitz.de/drakma/
 [79]: https://github.com/usocket/usocket
 [80]: https://github.com/eudoxia0/postmaster
 [81]: https://github.com/eudoxia0/trivial-ssh
