@@ -160,6 +160,10 @@ HTML generators and templates
 * [Djula][100] - A port of Django's template engine to Common Lisp. [Expat][14].
 * [eco][98] - Fast, flexible, designer-friendly template engine. [Expat][14].
 
+URI handling
+------------
+* [puri-unicode][75] - Pure URI library with Unicode support. [LLGPL][8].
+
 Others
 ------
 
@@ -300,19 +304,45 @@ Language extensions
 -------------------
 
 * [cl21][125] - An experimental project to move Common Lisp into the 21st century, fixing a lot of CL quirks. [Expat][14].
+* [alexandria][149] - A general-purpose utility library. Public domain.
+* [cl-annot][127] - Python-like annotations for Common Lisp. [LLGPL][8].
+* [anaphora][158] - A collection of anaphoric macros. Public domain.
+* [optima][146] - Optimized pattern-matching library. [LLGPL][8].
+* [iterate][139] - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
+* [glyphs][153] - A library for cutting down the verboseness of Common Lisp in places. [GNU GPL3][2].
+
+I/O
+---
+* [iolib][112] - I/O library. [Expat][14].
+* [fast-io][113] - Fast octet-vector/stream I/O. [3-clause BSD][15].
+* [trivial-utf8][119] - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
+
+Data validation
+---------------
+* [ratify][77] - A collection of utilities to ratify, validate and parse inputs. [Artistic License 2.0][51].
+
+Date and time
+-------------
+* [localtime][122] - A development library for manipulating date and time information in a semi-standard manner. [3-clause BSD][15].
+
+Javascript
+----------
+* [Parenscript][102] - A translator from Common Lisp to Javascript. [3-clause BSD][15].
+* [parse-js][104] - A package for parsing ECMAScript 3. [zlib][33].
+
+Logging
+-------
+* [log4cl][124] - Logging framework modelled after Log4J. [Apache2.0][89].
 
 Other
 -----
 
 This contains anything which doesn't fit into another category.
 
-* [alexandria][149] - A general-purpose utility library. Public domain.
-* [anaphora][158] - A collection of anaphoric macros. Public domain.
 * [babel][120] - A charset encoding/decoding library. [Expat][14].
 * [chipz][167] - A decompression library. [3-clause BSD][15].
 * [cl-2dsyntax][128] - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
 * [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
-* [cl-annot][127] - Python-like annotations for Common Lisp. [LLGPL][8].
 * [cl-csv][170] - A library for parsing CSV files. [3-clause BSD][15].
 * [cl-cuda][118] - A library to use NVIDIA CUDA in Common Lisp programs. [LLGPL][8].
 * [cl-fad][111] - A portable pathname library. [FreeBSD][39].
@@ -324,22 +354,11 @@ This contains anything which doesn't fit into another category.
 * [closer-mop][162] - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
 * [envy][142] - Configuration switcher. [FreeBSD][39].
 * [esrap][69] - Packrat parser. [Expat][14].
-* [fast-io][113] - Fast octet-vector/stream I/O. [3-clause BSD][15].
 * [FSet][164] - A functional, set-theoretic collections data structure library. [LLGPL][8].
-* [glyphs][153] - A library for cutting down the verboseness of Common Lisp in places. [GNU GPL3][2].
 * [interface][148] - A protocol library. [3-clause BSD][15].
-* [iolib][112] - I/O library. [Expat][14].
-* [iterate][139] - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
-* [localtime][122] - A development library for manipulating date and time information in a semi-standard manner. [3-clause BSD][15].
-* [log4cl][124] - Logging framework modelled after Log4J. [Apache2.0][89].
 * [mixalot][181] - A loosely-coupled collection of audio libraries. No license specified.
 * [named-readtables][129] - Provides a readtable namespace, akin to package namespaces. [3-clause BSD][15].
-* [optima][146] - Optimized pattern-matching library. [LLGPL][8].
 * [osicat][172] - A lightweight operating system interface on POSIX-like systems. [Expat][14].
-* [Parenscript][102] - A translator from Common Lisp to Javascript. [3-clause BSD][15].
-* [parse-js][104] - A package for parsing ECMAScript 3. [zlib][33].
-* [puri-unicode][75] - Pure URI library with Unicode support. [LLGPL][8].
-* [ratify][77] - A collection of utilities to ratify, validate and parse inputs. [Artistic License 2.0][51].
 * [Salza2][166] - A library for creating compressed data. [FreeBSD][39].
 * [serapeum][150] - Another general-purpose utility library. [Expat][14].
 * [simple-currency][74] - A currency conversion library using daily information published by the ECB. [FreeBSD][39].
@@ -348,7 +367,6 @@ This contains anything which doesn't fit into another category.
 * [trivial-benchmark][144] - Tiny benchmarking library. [Artistic Licence 2.0][51].
 * [trivial-garbage][174] - A portable finalizer, weak hash-table and weak pointer API. Public domain.
 * [trivial-types][145] - Trivial type definitions. [LLGPL][8].
-* [trivial-utf8][119] - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
 * [ubiquitous][143] - A library providing easy-to-use persistent configuration storage. [Artistic License 2.0][51].
 
 Crypto
