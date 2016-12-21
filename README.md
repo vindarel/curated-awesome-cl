@@ -228,6 +228,11 @@ JSON
 * [cl-json][75] - A JSON encoder and decoder. [Expat][14].
 * [jsown][76] - A reader and writer for the JSON format. [Expat][14].
 
+CSV
+===
+
+* [cl-csv][170] - A library for parsing CSV files. [3-clause BSD][15].
+
 
 Database and ORMs
 =================
@@ -394,7 +399,6 @@ This contains anything which doesn't fit into another category.
 * [chipz][167] - A decompression library. [3-clause BSD][15].
 * [cl-2dsyntax][128] - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
 * [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
-* [cl-csv][170] - A library for parsing CSV files. [3-clause BSD][15].
 * [cl-cuda][118] - A library to use NVIDIA CUDA in Common Lisp programs. [LLGPL][8].
 * [cl-fad][111] - A portable pathname library. [FreeBSD][39].
 * [cl-interpol][130] - A set of reader modifications to allow string interpolation. No license specified.
