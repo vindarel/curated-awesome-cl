@@ -164,6 +164,11 @@ URI handling
 ------------
 * [puri-unicode][75] - Pure URI library with Unicode support. [LLGPL][8].
 
+Javascript
+----------
+* [Parenscript][102] - A translator from Common Lisp to Javascript. [3-clause BSD][15].
+* [parse-js][104] - A package for parsing ECMAScript 3. [zlib][33].
+
 Others
 ------
 
@@ -324,11 +329,6 @@ Data validation
 Date and time
 -------------
 * [localtime][122] - A development library for manipulating date and time information in a semi-standard manner. [3-clause BSD][15].
-
-Javascript
-----------
-* [Parenscript][102] - A translator from Common Lisp to Javascript. [3-clause BSD][15].
-* [parse-js][104] - A package for parsing ECMAScript 3. [zlib][33].
 
 Logging
 -------
