@@ -57,6 +57,7 @@ is provided in the LICENSE file.
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
 - [Regex](#regex)
 - [Unit Testing](#unit-testing)
+- [Continuous Integration](#continuous-integration)
 - [Utilities](#utilities)
     - [Language extensions](#language-extensions)
     - [I/O](#io)
@@ -320,6 +321,13 @@ Unit Testing
 * [Lift][175] - Another testing framework. [A range of licenses, all free][176].
 * [Prove][194] - Yet another unit testing framework [Expat][14].
 
+Continuous Integration
+======================
+
+* Travis CI: we can use Roswell on Travis CI: see
+  [a tutorial](https://github.com/snmsts/roswell/wiki/Using-with-Travis-CI)
+  (cl-travis doesn't work with Travi's Docker based architecture).
+* [cl-coveralls](https://github.com/fukamachi/cl-coveralls)
 
 Utilities
 =========
