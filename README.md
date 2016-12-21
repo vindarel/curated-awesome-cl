@@ -356,8 +356,17 @@ Language extensions
 * [arrow-macros](https://github.com/hipeta/arrow-macros/) - clojure-like arrow macros (ex. ->, ->>) and diamond wands in [swiss-arrows](https://github.com/rplevy/swiss-arrows). Threading macros, pipe. [MIT][200].
 * [cl-arrows](https://github.com/nightfly19/cl-arrows) - Common Lisp implementation of Clojure's threading macros.
 
+System
+------
+
+The de-facto library is [uiop](http://quickdocs.org/uiop/), the
+Utilities for Implementation and OS Portability. It abstracts os
+utilities (getevn, chdir, etc), pathnames, the filesystem, images,
+spawning processes, and much more.
+
 I/O
 ---
+
 * [iolib][112] - I/O library. [Expat][14].
 * [fast-io][113] - Fast octet-vector/stream I/O. [3-clause BSD][15].
 * [trivial-utf8][119] - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
