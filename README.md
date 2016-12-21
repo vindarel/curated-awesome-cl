@@ -312,9 +312,7 @@ Unit Testing
 ============
 
 * [FiveAM][123] - Simple regression testing framework. [FreeBSD][39].
-* [CLUnit][151] - A unit testing library. [Expat][14].
 * [Lift][175] - Another testing framework. [A range of licenses, all free][176].
-* [Stefil][177] - A test framework that aims to be transparent. Public domain.
 * [Prove][194] - Yet another unit testing framework [Expat][14].
 
 
@@ -606,7 +604,6 @@ an issue to add a new framework, library or software to the list.
 [148]: https://bitbucket.org/tarballs_are_good/interface
 [149]: https://common-lisp.net/project/alexandria/
 [150]: https://github.com/TBRSS/serapeum/
-[151]: https://github.com/tgutu/clunit
 [152]: http://lisptips.com/
 [153]: https://github.com/ahungry/glyphs/
 [154]: https://cheryllium.wordpress.com/2014/02/22/commonqt-tutorial-1/
@@ -631,7 +628,6 @@ an issue to add a new framework, library or software to the list.
 [174]: https://github.com/trivial-garbage/trivial-garbage
 [175]: https://github.com/gwkkwg/lift
 [176]: https://github.com/gwkkwg/lift/blob/master/COPYING
-[177]: http://dwim.hu/project/hu.dwim.stefil?_x=BGZm&_f=SnpbobKv
 [178]: https://github.com/dmitryvk/cl-gtk2
 [179]: http://www.peter-herth.de/ltk/
 [180]: https://github.com/lispbuilder/lispbuilder
