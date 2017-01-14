@@ -397,7 +397,6 @@ This contains anything which doesn't fit into another category.
 
 * [babel][120] - A charset encoding/decoding library. [Expat][14].
 * [chipz][167] - A decompression library. [3-clause BSD][15].
-* [cl-2dsyntax][128] - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.
 * [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * [cl-cuda][118] - A library to use NVIDIA CUDA in Common Lisp programs. [LLGPL][8].
 * [cl-fad][111] - A portable pathname library. [FreeBSD][39].
