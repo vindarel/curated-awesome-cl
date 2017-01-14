@@ -362,6 +362,10 @@ Language extensions
 * [glyphs][153] - A library for cutting down the verboseness of Common Lisp in places. [GNU GPL3][2].
 * [arrow-macros](https://github.com/hipeta/arrow-macros/) - clojure-like arrow macros (ex. ->, ->>) and diamond wands in [swiss-arrows](https://github.com/rplevy/swiss-arrows). Threading macros, pipe. [MIT][200].
 * [cl-arrows](https://github.com/nightfly19/cl-arrows) - Common Lisp implementation of Clojure's threading macros.
+* [FSet][164] - A functional, set-theoretic collections data structure library. [LLGPL][8].
+* [interface][148] - A protocol library. [3-clause BSD][15].
+* [trivial-types][145] - Trivial type definitions. [LLGPL][8].
+* [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 
 System
 ------
@@ -397,7 +401,6 @@ This contains anything which doesn't fit into another category.
 
 * [babel][120] - A charset encoding/decoding library. [Expat][14].
 * [chipz][167] - A decompression library. [3-clause BSD][15].
-* [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
 * [cl-cuda][118] - A library to use NVIDIA CUDA in Common Lisp programs. [LLGPL][8].
 * [cl-fad][111] - A portable pathname library. [FreeBSD][39].
 * [cl-interpol][130] - A set of reader modifications to allow string interpolation. No license specified.
@@ -408,8 +411,6 @@ This contains anything which doesn't fit into another category.
 * [closer-mop][162] - A compatibility layer that rectifies many absent or incorrect MOP features. [Expat][14].
 * [envy][142] - Configuration switcher. [FreeBSD][39].
 * [esrap][69] - Packrat parser. [Expat][14].
-* [FSet][164] - A functional, set-theoretic collections data structure library. [LLGPL][8].
-* [interface][148] - A protocol library. [3-clause BSD][15].
 * [mixalot][181] - A loosely-coupled collection of audio libraries. No license specified.
 * [named-readtables][129] - Provides a readtable namespace, akin to package namespaces. [3-clause BSD][15].
 * [osicat][172] - A lightweight operating system interface on POSIX-like systems. [Expat][14].
@@ -420,7 +421,7 @@ This contains anything which doesn't fit into another category.
 * [texp][137] - A DSL to generate TeX. No license specified.
 * [trivial-benchmark][144] - Tiny benchmarking library. [Artistic Licence 2.0][51].
 * [trivial-garbage][174] - A portable finalizer, weak hash-table and weak pointer API. Public domain.
-* [trivial-types][145] - Trivial type definitions. [LLGPL][8].
+* [trivial-ssh][81] - An SSH client library. [Expat][14].
 * [ubiquitous][143] - A library providing easy-to-use persistent configuration storage. [Artistic License 2.0][51].
 
 Crypto
@@ -428,7 +429,6 @@ Crypto
 
 * [crypto-shortcuts][50] - Collection of common crypto shortcuts. [Artistic License 2.0][51].
 * [Ironclad][49] - A library of crypto functions for Common Lisp. Not considered secure, but is still useful for the message digest functions. [Expat][14].
-* [trivial-ssh][81] - An SSH client library. [Expat][14].
 
 Learning and Tutorials
 =====================
