@@ -184,15 +184,6 @@ HTTP clients
 ------------
 * [Dexador][199] - An HTTP client, that aims at [replacing Drakma](http://quickdocs.org/dexador/). [MIT][200].
 
-HTTP Servers
-------------
-* [aserve][110] - AllegroServe; a web server. [LLGPL][8].
-* [Clack][90] - A web application environment inspired by Rack and WSGI. [LLGPL][8]. Replaces Hunchentoot.
-* [clack-errors][94] - Error page middleware for Clack. [LLGPL][8].
-* [hermetic][95] - Security for Clack-based web applications. [Expat][14].
-* [wookie][109] - Asynchronous HTTP server. [Expat][14].
-* [woo](https://github.com/fukamachi/woo) - A fast non-blocking HTTP server on top of libev. [MIT][200].
-
 Web frameworks
 --------------
 * [Caveman][92] - A powerful web framework. [LLGPL][8].
@@ -204,6 +195,18 @@ Web frameworks
 * [radiance](https://github.com/Shirakumo/radiance) - An extensible framework library and multi-application CMS. [Artistic License 2.0][51].
 
 There are more projects, more or less discontinued but interesting. See the other ressources.
+
+HTTP Servers
+------------
+* [Hunchentoot](https://edicl.github.io/hunchentoot/) - the CL web server.
+* [Clack][90] - A web application environment inspired by Rack and WSGI. [LLGPL][8].
+* [wookie][109] - Asynchronous HTTP server. [Expat][14].
+* [woo](https://github.com/fukamachi/woo) - A fast non-blocking HTTP server on top of libev. [MIT][200].
+
+Clack extensions:
+
+* [clack-errors][94] - Error page middleware for Clack. [LLGPL][8].
+* [hermetic][95] - Security for Clack-based web applications. [Expat][14].
 
 Parsing html
 ------------
