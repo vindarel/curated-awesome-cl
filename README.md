@@ -6,6 +6,8 @@
 
 A curated list of _awesome_ Common Lisp stuff, curated for beginners.
 
+**! This list was done early on, now I take care of the original one, which has way more useful links.**
+
 Forked from the
 [Awesome Common Lisp](https://github.com/CodyReichert/awesome-cl) and
 modified following the ideas:
