@@ -110,6 +110,32 @@ This contains plugins and other goodies for various text editors.
 
 * [SLIMV][187] - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
 
+## Lem ##
+
+* [Lem](https://github.com/cxxxr/lem) - a ready to use, Emacs-like, Slime-based
+  editor tailored for Common Lisp development. Ncurses and Electron interfaces. [MIT][200].
+
+## Atom ##
+
+* [ATOM-SLIME](https://atom.io/packages/atom-slime) allows you to
+  interactively develop Common Lisp code, helping turn Atom into a
+  full-featured Lisp IDE. [MIT][200].
+
+## Sublime Text ##
+
+* [Sublime Text](http://www.sublimetext.com/3) has Common Lisp support
+  with its "SublimeREPL" package. [Proprietary].
+
+## Notebooks ##
+
+* [cl-jupyter](https://github.com/fredokun/cl-jupyter) - A Common Lisp kernel for Jupyter notebooks [custom licence](https://github.com/fredokun/cl-jupyter/blob/master/LICENSE).
+* [Darkmatter](https://github.com/tamamu/darkmatter) - A
+  notebook-style Common Lisp environment. [MIT][200].
+
+## REPLs ##
+
+* [cl-repl](https://github.com/koji-kojiro/cl-repl) - an ipython-like REPL. With completion, shell commands, magic commands, debugger, etc. [MIT][200]. With [colorthemes](https://github.com/koji-kojiro/lem-pygments-colorthemes).
+
 Implementations
 ===============
 
