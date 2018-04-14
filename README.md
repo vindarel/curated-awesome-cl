@@ -8,6 +8,8 @@ A curated list of _awesome_ Common Lisp stuff, curated for beginners.
 
 **! This list was done early on, now I take care of the original one, which has way more useful links.**
 
+Also don't miss the https://lispcookbook.github.io/cl-cookbook/ :)
+
 Forked from the
 [Awesome Common Lisp](https://github.com/CodyReichert/awesome-cl) and
 modified following the ideas:
@@ -86,10 +88,9 @@ is provided in the LICENSE file.
 Community
 =========
 
-* [Quickdocs](https://www.reddit.com/r/lisp/) - Ready and up to date documentation for all Common Lisp projects.
-* [Cliki](http://www.cliki.net) - the Common Lisp wiki
-* [Articulate Common Lisp](http://articulate-lisp.com/) - How to write Common Lisp in 2015. An initiation manual for the uninitiated.
+* [Common Lisp Cookbook](https://lispcookbook.github.io/cl-cookbook/)
 * [Reddit](https://www.reddit.com/r/lisp/)
+* [Quickdocs](https://www.reddit.com/r/lisp/) - Ready and up to date documentation for all Common Lisp projects.
 
 And see below, learning and tutorials.
 
