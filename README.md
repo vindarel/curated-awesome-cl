@@ -8,6 +8,8 @@ A curated list of _awesome_ Common Lisp stuff, curated for beginners.
 
 Also don't miss the https://lispcookbook.github.io/cl-cookbook/ :)
 
+**I take much more care of the original list now**
+
 Forked from the
 [Awesome Common Lisp](https://github.com/CodyReichert/awesome-cl) and
 modified following the ideas:
