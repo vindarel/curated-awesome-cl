@@ -105,6 +105,8 @@ And see below, learning and tutorials.
 Development Environments
 ========================
 
+[Cookbook: getting started](https://lispcookbook.github.io/cl-cookbook/getting-started.html)
+
 * [PORTACLE][201] - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
 * [Lem](https://github.com/cxxxr/lem) - a ready to use, Emacs-like editor, based on Slime, with a terminal and an Electron interface.
 
@@ -112,6 +114,8 @@ Text Editor Resources
 =====================
 
 This contains plugins and other goodies for various text editors.
+
+[Cookbook: editor resources](https://lispcookbook.github.io/cl-cookbook/editor-support.html)
 
 ## Emacs ##
 
@@ -210,6 +214,9 @@ Clack extensions:
 
 Parsing html
 ------------
+
+[Cookbook: web scraping](https://lispcookbook.github.io/cl-cookbook/web-scraping.html)
+
 * [Plump][71] - A lenient HTTP/XML parser, tolerand on malformed markup. [Artistic License 2.0][51]. Best used with [lquery][72] and [clss][202].
 
 Querying HTML/DOM
@@ -277,9 +284,11 @@ CSV
 Database and ORMs
 =================
 
+[Cookbook: databases](https://lispcookbook.github.io/cl-cookbook/databases.html)
+
 * [mito][31] - An ORM for Common Lisp with migrations, schema versioning, relationships, PostgreSQL support [LLGPL][8].
-* [sxql][23] - A DSL for generating SQL. [3-clause BSD][15].
 * [cl-dbi][34] - A database-independent interface for Common Lisp. [LLGPL][8].
+* [postmodern][32] - A library for interacting with PostgreSQL. [zlib][33].
 
 others:
 
@@ -293,7 +302,6 @@ others:
 * [clache][41] - General caching facility. No license specified.
 * [clouchdb][38] - Library for interacting with CouchDB. [FreeBSD][39].
 * [datafly][30] - A lightweight database library. [3-clause BSD][15].
-* [postmodern][32] - A library for interacting with PostgreSQL. [zlib][33].
 
 
 Foreign Function Interface
@@ -305,7 +313,7 @@ See the Awesome List.
 Game Development
 ================
 
-* see the awesome list. Nothing in Quicklisp.
+* see the awesome list.
 
 Graphics
 ========
@@ -329,10 +337,8 @@ GUI
 * [Qtools](https://github.com/Shinmera/qtools/) - A Qt toolkit, based on CommonQt. [Artistic License 2.0][51]
 * [cl-cffi-gtk][65] - Binding for GTK+3. [GNU LGPL2.1][11].
 * [cl-gtk2][178] - A binding for GTK+2. [LLGPL][8].
-* [cl-xul][66] - Mozilla XUL bindings. [Expat][14].
 * [ltk][179] - A binding for the Tk toolkit. [LLGPL][8] or [GNU LGPL2.1][11].
 * [ceramic][192] - Desktop web apps with Common Lisp. [Expat][14].
-
 
 
 Natural Language Processing
@@ -345,6 +351,10 @@ Natural Language Processing
 Numerical and Scientific
 ========================
 
+[Cookbook: numbers](https://lispcookbook.github.io/cl-cookbook/numbers.html)
+
+[Cookbook: multidimensionnal arrays](https://lispcookbook.github.io/cl-cookbook/arrays.html)
+
 * [cl-spark][87] - Generates sparkline strings for lists of numbers. [Expat][14].
 * [GSLL][84] - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. [GNU LGPL2.1][11].
 * [common-lisp-stat][85] - Common Lisp statistics library. [FreeBSD][39].
@@ -355,8 +365,11 @@ Numerical and Scientific
 Parallelism and Concurrency
 ===========================
 
+[Cookbook: threads](https://lispcookbook.github.io/cl-cookbook/process.html)
+
 * [BordeauxThreads][171] - Portable, shared-state concurrency. [Expat][14].
 * [lparallel][114] - A library for parallel programming. [3-clause BSD][15].
+* [lfarm](https://github.com/lmj/lfarm) - distributing work across machines (on top of lparallel and usocket). [BSD_3Clause][15]
 * [cl-async][116] - A library for general-purpose, non-blocking programming, built on [libuv](https://github.com/libuv/libuv) (the library that powers Nodejs). [Expat][14].
 * [chanl][117] - Portable, channel-based concurrency. [Expat][14], with parts under [3-clause BSD][15].
 * [lesque][141] - A clone of Resque. Not available on Quicklisp. [Expat][14].
@@ -364,6 +377,8 @@ Parallelism and Concurrency
 
 Regex
 =====
+
+[Cookbook: regular expressions](https://lispcookbook.github.io/cl-cookbook/regexp.html)
 
 * [cl-ppcre][68] - Portable, Perl-compatible regular expressions. [FreeBSD][39].
 
@@ -373,7 +388,7 @@ See also fixes in CL21 below.
 Unit Testing
 ============
 
-https://lispcookbook.github.io/cl-cookbook/testing.html
+[Cookbook: testing and continuous integration](https://lispcookbook.github.io/cl-cookbook/testing.html)
 
 * [Prove][194] - Yet another unit testing framework [Expat][14].
 * [Parachute](https://github.com/Shinmera/parachute) - An extensible
@@ -381,6 +396,8 @@ https://lispcookbook.github.io/cl-cookbook/testing.html
 
 Continuous Integration
 ======================
+
+[Cookbook: testing and continuous integration](https://lispcookbook.github.io/cl-cookbook/testing.html)
 
 * Travis CI: we can use Roswell on Travis CI: see
   [a tutorial](https://github.com/snmsts/roswell/wiki/Using-with-Travis-CI)
@@ -394,11 +411,15 @@ Utilities
 Language extensions
 -------------------
 
+[Cookbook: CL21](https://lispcookbook.github.io/cl-cookbook/cl21.html)
+
+
+
 * [cl21][125] - An experimental project to move Common Lisp into the 21st century, fixing a lot of CL quirks. [Expat][14].
 * [alexandria][149] - A general-purpose utility library. Public domain.
 * [cl-annot][127] - Python-like annotations for Common Lisp. [LLGPL][8].
 * [anaphora][158] - A collection of anaphoric macros. Public domain.
-* [optima][146] - Optimized pattern-matching library. [LLGPL][8].
+* [optima][146] - Optimized pattern-matching library. [LLGPL][8]. [Cookbook: pattern matching](https://lispcookbook.github.io/cl-cookbook/cl21.html)
 * [iterate][139] - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.
 * [arrow-macros](https://github.com/hipeta/arrow-macros/) - clojure-like arrow macros (ex. ->, ->>) and diamond wands in [swiss-arrows](https://github.com/rplevy/swiss-arrows). Threading macros, pipe. [MIT][200].
 * [cl-arrows](https://github.com/nightfly19/cl-arrows) - Common Lisp implementation of Clojure's threading macros.
@@ -414,6 +435,8 @@ Utilities for Implementation and OS Portability. It abstracts os
 utilities (getevn, chdir, etc), pathnames, the filesystem, images,
 spawning processes, and much more.
 
+[Cookbook: interfacing with your OS](https://lispcookbook.github.io/cl-cookbook/os.html)
+
 I/O
 ---
 
@@ -427,6 +450,9 @@ Data validation
 
 Date and time
 -------------
+
+[Cookbook: date and time](https://lispcookbook.github.io/cl-cookbook/dates_and_times.html)
+
 * [localtime][122] - A development library for manipulating date and time information in a semi-standard manner. [3-clause BSD][15].
 
 Logging
@@ -597,7 +623,7 @@ an issue to add a new framework, library or software to the list.
 [62]: https://github.com/aerique/okra
 [63]: https://github.com/BradWBeer/CLinch
 [64]: https://github.com/commonqt/commonqt
-[65]: http://www.crategus.com/books/cl-cffi-gtk/
+[65]: https://github.com/Ferada/cl-cffi-gtk/issues
 [66]: https://github.com/mmontone/cl-xul
 [67]: http://xelf.me/
 [68]: http://weitz.de/cl-ppcre/
