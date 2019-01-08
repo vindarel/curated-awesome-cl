@@ -396,9 +396,9 @@ Unit Testing
 
 [Cookbook: testing and continuous integration](https://lispcookbook.github.io/cl-cookbook/testing.html)
 
-* [Prove][194] - Yet another unit testing framework [Expat][14].
-* [Parachute](https://github.com/Shinmera/parachute) - An extensible
 * [FiveAM][123] - Simple regression testing framework. [FreeBSD][39].
+* [Parachute](https://github.com/Shinmera/parachute) - An extensible and cross-compatible testing framework.
+* [Rove](https://github.com/fukamachi/rove) - yet another unit testing framework. The successor of Prove.
 
 Continuous Integration
 ======================
