@@ -190,15 +190,21 @@ HTTP clients
 
 Web frameworks
 --------------
+
 * [Caveman][92] - A powerful web framework. [LLGPL][8].
   Example projects: [Quickdocs](https://github.com/quickdocs)
 * [ningle][93] - A super-micro web framework. [LLGPL][8].
 * [Lucerne](https://github.com/eudoxia0/lucerne) - A minimal web framework built on Clack, inspired by Flask. [MIT][200].
-* [radiance][91] - An extensible framework library and multi-application CMS. [Artistic License 2.0][51].
+* [Wookie](https://github.com/orthecreedence/wookie) - Asynchronous HTTP server. [Expat][14].
 * [Snooze](https://github.com/joaotavora/snooze) - A RESTful web framework, built on Clack, where routes are just functions and HTTP conditions are just Lisp conditions. [LLGPL][8].
 * [radiance](https://github.com/Shirakumo/radiance) - An extensible framework library and multi-application CMS. [Artistic License 2.0][51].
+* [cl-rest-server](https://github.com/mmontone/cl-rest-server) - a library for writing REST web APIs. Features validation with schemas, annotations for logging, caching, permissions or authentication, documentation via Swagger, etc. [MIT][200].
+* [Weblocks](https://github.com/40ants/weblocks) - A widgets-based framework with a built-in ajax update mechanism that "solves the JavaScript problem". [LLGPL][8].
 
 There are more projects, more or less discontinued but interesting. See the other ressources.
+
+*my 2 cents*: I find Clack-based frameworks (like Caveman) tedious to use. Be sure to test others (Wookie, Snooze,…). Don't juge projects uniquely by their numbers of Github stars.
+
 
 HTTP Servers
 ------------
