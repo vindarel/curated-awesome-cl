@@ -141,7 +141,11 @@ This contains plugins and other goodies for various text editors.
 Implementations
 ===============
 
-* [SBCL][12] - A fork of CMUCL; compiles to machine code. [Standard compliance][13]. Public domain, with some parts under [Expat][14] and [3-clause BSD][15]. Just use it if you don't know.
+* [SBCL][12] - A fork of CMUCL; compiles to machine code. [Standard compliance][13]. Public domain, with some parts under [Expat][14] and [3-clause BSD][15].
+  - *Just use it if you don't know*
+  - *Install it from your package manager: `apt install sbcl`*
+  - *It does thorough type checking*
+  - *Google contributes to SBCL!*
 * [Clozure Common Lisp](https://ccl.clozure.com/docs/ccl.html), for its fast compilation time, and to use on 32bits Raspberry Pi.
 
 But there are more, see other ressources.
@@ -167,6 +171,7 @@ Tools
 These are applications or bits of code that make development in Common Lisp easier without being Common Lisp libraries themselves.
 
 * [quickapp][188] - A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. *I personally didn't use it yet*.
+  * *we don't need it to build self-contained binaries.*
 * [quickapp-cli][189] - [quickapp][188] as a command-line utility.
 * [quicksearch][140] - Look up online libraries from the REPL. *This one helped me sometimes*.
 
@@ -175,7 +180,7 @@ Web
 
 HTTP clients
 ------------
-* [Dexador][199] - An HTTP client, that aims at [replacing Drakma](http://quickdocs.org/dexador/). [MIT][200].
+* [Dexador][199] - An HTTP client: `(dex:get "http://url.com")`.
 
 Web frameworks
 --------------
@@ -355,7 +360,9 @@ https://lispcookbook.github.io/cl-cookbook/gui.html
 * [nodgui](https://notabug.org/cage/nodgui) - Bindings for the Tk toolkit, based on Ltk, with syntax sugar and additional widgets.
   - *nodgui defines more widgets and syntax suger for Ltk. His maintainer his reactive.*
 * [IUP](https://github.com/lispnik/iup/) - CFFI bindings to the [IUP](https://www.tecgraf.puc-rio.br/iup/) Portable User Interface library (pre-ALPHA). IUP is cross-platform (Windows, macOS, GNU/Linux, with new Android, iOs, Cocoa and Web Assembly drivers), has many widgets, has a small api and is actively developed.
+  - *More advanced than Tk, less than Qt. Also very easy to use. The Lisp library is very well done. Totally deserves more attention.*
 * [Qtools](https://github.com/Shinmera/qtools/) - A Qt4 toolkit, based on CommonQt.
+  * *outdated. There's a Qt5 wrapper for ECL. I heard a Qt5 Qtools is coming…*
 * [ceramic][192] - Desktop web apps with Common Lisp. [Expat][14].
 * [LispWork's CAPI](http://www.lispworks.com/products/capi.html) - A portable GUI toolkit, with mobile runtime. Proprietary, but comes with a free version.
   - *the free version is easy to install, we can try it.*
@@ -424,7 +431,8 @@ Job processing
 
 
 * [SBCL's timers](http://www.sbcl.org/manual/#Timers), system-wide event schedulers.
-* [cl-cron](https://github.com/ciel-lang/cl-cron) - A simple tool that provides cron like facilities. [GPL3][2].
+* [cl-cron](https://github.com/ciel-lang/cl-cron) - A simple tool that provides cron like facilities.
+  * *it has no GitHub stars because it was on Bitbucket, but it's easy to use and it works well. Recommended.*
 * [clerk](https://github.com/tsikov/clerk) - a cron-like scheduler with sane DSL. [MIT][200].
 
 
@@ -634,20 +642,15 @@ Advanced
 
 Contributing
 ============
-Your contributions are always welcome! Please submit a pull request or create
-an issue to add a new framework, library or software to the list.
+
+Contribute upstream to the awesome-cl list or write your own curated one, and share it!
 
 
-[1]: https://common-lisp.net/project/armedbear/
 [2]: http://www.gnu.org/copyleft/gpl.html
 [3]: http://www.gnu.org/software/classpath/license.html
 [4]: https://common-lisp.net/project/armedbear/faq.shtml#qa
-[5]: http://www.clisp.org/
-[6]: http://www.gnu.org/software/clisp/impnotes.html
 [7]: http://ccl.clozure.com/
 [8]: http://opensource.franz.com/preamble.html
-[9]: https://www.cons.org/cmucl/
-[10]: https://common-lisp.net/project/ecl/
 [11]: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 [12]: http://www.sbcl.org/index.html
 [13]: http://www.sbcl.org/manual/index.html#ANSI-Conformance
@@ -667,25 +670,11 @@ an issue to add a new framework, library or software to the list.
 [27]: http://arxiv.org/abs/1209.5626
 [28]: http://quickdocs.org/
 [29]: https://github.com/slime/slime
-[30]: https://github.com/fukamachi/datafly
 [31]: https://github.com/fukamachi/mito
 [32]: http://marijnhaverbeke.nl/postmodern/
 [33]: http://directory.fsf.org/wiki/License:Zlib
-[34]: https://github.com/fukamachi/cl-dbi
-[35]: https://github.com/vseloved/cl-redis
-[36]: https://github.com/fons/cl-mongo
-[37]: https://github.com/orthecreedence/cl-rethinkdb
-[38]: https://common-lisp.net/project/clouchdb/
 [39]: http://directory.fsf.org/wiki?title=License:FreeBSD
-[40]: https://github.com/quasi/cl-memcached
-[41]: https://github.com/html/clache
-[42]: https://github.com/eudoxia0/crane
-[43]: https://github.com/cffi/cffi
-[44]: https://github.com/rpav/cl-autowrap
-[45]: https://common-lisp.net/project/cl-plus-j/
-[46]: http://foil.sourceforge.net/
 [47]: http://directory.fsf.org/wiki/License:CPLv1.0
-[48]: https://github.com/pinterface/burgled-batteries
 [49]: http://method-combination.net/lisp/ironclad/
 [50]: https://github.com/Shinmera/crypto-shortcuts
 [51]: http://directory.fsf.org/wiki/License:ArtisticLicense2.0
@@ -699,12 +688,7 @@ an issue to add a new framework, library or software to the list.
 [59]: http://directory.fsf.org/wiki/License:EPLv1.0
 [60]: https://github.com/lispgames/cl-sdl2
 [61]: http://weitz.de/cl-gd/
-[62]: https://github.com/aerique/okra
-[63]: https://github.com/BradWBeer/CLinch
 [64]: https://github.com/commonqt/commonqt
-[65]: https://github.com/Ferada/cl-cffi-gtk/issues
-[66]: https://github.com/mmontone/cl-xul
-[67]: http://xelf.me/
 [68]: http://weitz.de/cl-ppcre/
 [69]: https://github.com/nikodemus/esrap
 [70]: https://common-lisp.net/project/cxml/
@@ -734,9 +718,6 @@ an issue to add a new framework, library or software to the list.
 [94]: https://github.com/eudoxia0/clack-errors
 [95]: https://github.com/eudoxia0/hermetic
 [96]: https://common-lisp.net/project/cl-openid/darcs/cl-openid/
-[97]: https://github.com/dmitrys99/saluto
-[98]: https://github.com/eudoxia0/eco
-[99]: https://github.com/archimag/cl-closure-template
 [100]: https://github.com/mmontone/djula
 [101]: https://github.com/arielnetworks/cl-markup
 [102]: https://github.com/vsedach/Parenscript
