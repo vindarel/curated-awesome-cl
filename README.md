@@ -154,9 +154,12 @@ Build Systems
 Library Manager
 ===============
 
-* [Quicklisp][16] - A library manager containing many libraries, with easy depencency management. [Expat][14].
-* [Roswell](https://github.com/roswell/roswell) - A Lisp implementation installer, script launcher and more. [MIT][200].
-* [qlot][135] - A project-local library installer, similar to Bundler or Carton. [Expat][14].
+* [Quicklisp][16] - *The* library manager.
+  - *You just must use it, then learn other tools that complement it.
+* [Ultralisp](https://ultralisp.org/) - A quicklisp distribution that builds every five minutes (instead of one month for Quicklisp), and requires 3 clicks to add your project to it (instead of opening an issue and waiting for Quicklisp).
+* [Roswell](https://github.com/roswell/roswell) - A Lisp implementation installer, script launcher and more.
+  - *it's useful, but not necessary to getting started.*
+* [qlot][135] - A project-local library installer, similar to Bundler or Carton.
 
 Tools
 =====
