@@ -323,11 +323,16 @@ Database and ORMs
 For much more, see the awesome-cl list.
 
 
-Foreign Function Interface
-==========================
+Interaction with other languages
+================================
 
-See the Awesome List.
 
+## Python ##
+
+* [py4cl](https://github.com/bendudson/py4cl) - A library that allows Common Lisp code to access Python libraries. It is basically the inverse of cl4py. [MIT][200].
+* [cl4py](https://github.com/marcoheisig/cl4py) - The library cl4py (pronounce as clappy) allows Python programs to call Common Lisp libraries. [MIT][200].
+
+See also [async-process](https://github.com/cxxxr/async-process/).
 
 Game Development
 ================
