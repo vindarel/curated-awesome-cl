@@ -299,8 +299,7 @@ XML
 JSON
 ====
 
-* [cl-json][75] - A JSON encoder and decoder. [Expat][14].
-* [jsown][76] - A reader and writer for the JSON format. [Expat][14].
+* [jonathan](https://github.com/Rudolph-Miller/jonathan) - A JSON encoder and decoder. [MIT][200].
 
 CSV
 ===
