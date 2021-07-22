@@ -373,8 +373,7 @@ https://lispcookbook.github.io/cl-cookbook/gui.html
 Natural Language Processing
 ===========================
 
-* [cl-nlp][88] - Natural language processing toolset. [Apache2.0][89].
-* [babel2][198] - A Fluid Construction Grammar implementation, computational framework, and unification-based grammar formalism [Apache2.0][89].
+See the awesome-cl list.
 
 
 Numerical and Scientific
