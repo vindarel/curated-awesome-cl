@@ -10,7 +10,7 @@ Also don't miss the https://lispcookbook.github.io/cl-cookbook/ :)
 
 You are invited to *make your own curated list*, and reference it here!
 
-**I take much more care of the original list now**
+**edit: I now take much more care of the original list**
 
 
 This was forked from the
@@ -170,9 +170,7 @@ Tools
 
 These are applications or bits of code that make development in Common Lisp easier without being Common Lisp libraries themselves.
 
-* [quickapp][188] - A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. *I personally didn't use it yet*.
-  * *we don't need it to build self-contained binaries.*
-* [quickapp-cli][189] - [quickapp][188] as a command-line utility.
+* [cl-cookieproject](https://github.com/vindarel/cl-cookieproject) - my project skeleton, more complete than the others. *New in 2021 :)*
 * [quicksearch][140] - Look up online libraries from the REPL. *This one helped me sometimes*.
 
 Web
