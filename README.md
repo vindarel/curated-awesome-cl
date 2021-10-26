@@ -39,6 +39,7 @@ is provided in the LICENSE file.
     - [Vim](#vim)
     - [Lem](#lem)
     - [Atom](#atom)
+    - [VSCode](#vscode)
     - [Sublime Text](#sublime-text)
     - [Notebooks](#notebooks)
     - [REPLs](#repls)
@@ -127,6 +128,11 @@ This contains plugins and other goodies for various text editors.
 * [SLIMA](https://github.com/neil-lindquist/SLIMA/) allows you to
   interactively develop Common Lisp code, helping turn Atom into a
   full-featured Lisp IDE. [MIT][200].
+
+## VSCode
+
+* [alive](https://github.com/nobody-famous/alive) -  Common Lisp Extension for VSCode. Public domain.
+  * see the Cookbook: [using VSCode with Alive](https://lispcookbook.github.io/cl-cookbook/vscode-alive.html)
 
 
 ## Notebooks ##
