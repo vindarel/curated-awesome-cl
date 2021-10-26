@@ -99,7 +99,7 @@ Community
 
 * [Common Lisp Cookbook](https://lispcookbook.github.io/cl-cookbook/)
 * [Reddit](https://www.reddit.com/r/lisp/)
-* [Quickdocs](https://www.reddit.com/r/lisp/) - Ready and up to date documentation for all Common Lisp projects.
+* [Quickdocs](https://quickdocs.org/) - Ready and up to date documentation for all Common Lisp projects.
 
 And see below, learning and tutorials.
 
