@@ -395,6 +395,9 @@ Numerical and Scientific
 
 * [cl-spark][87] - Generates sparkline strings for lists of numbers. [Expat][14].
 * [GSLL][84] - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. [GNU LGPL2.1][11].
+* [lisp-stat](https://github.com/lisp-stat) - an environment for statistical computing, conceptually similar to R, that is also suitable for front-line production deployments. "It grew out of a desire to have an environment for rapidly prototyping analytical and A.I. solutions, and move directly to production environments with minimal friction."
+  * https://lisp-stat.dev/
+  * ships Luke Tierney's [XLisp-Stat](https://homepage.stat.uiowa.edu/~luke/xls/xlsinfo/) (a predecessor of R) as well as newer libraries.
 * [common-lisp-stat][85] - Common Lisp statistics library. [FreeBSD][39].
 * [lisp-matrix][86] - A matrix package. [FreeBSD][39].
 * [maxima][165] - Computer algebra system. Not available on Quicklisp. [GNU GPL3][2].
