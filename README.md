@@ -372,6 +372,8 @@ https://lispcookbook.github.io/cl-cookbook/gui.html
 * [Qtools](https://github.com/Shinmera/qtools/) - A Qt4 toolkit, based on CommonQt.
   * *outdated. There's a Qt5 wrapper for ECL. I heard a Qt5 Qtools is coming…*
 * [ceramic][192] - Desktop web apps with Common Lisp. [Expat][14].
+  * [Electron-lisp-boilerplate](https://github.com/mikelevins/electron-lisp-boilerplate) - A rudimentary boilerplate for building Electron apps with embedded Lisp helper processes.
+  * Electron app skeleton: [electron-sbcl-sqlite](https://github.com/mikelevins/electron-sbcl-sqlite/)
 * [LispWork's CAPI](http://www.lispworks.com/products/capi.html) - A portable GUI toolkit, with mobile runtime. Proprietary, but comes with a free version.
   - *the free version is easy to install, we can try it.*
 
