@@ -596,6 +596,28 @@ Crypto
 Learning and Tutorials
 =====================
 
+📢 Everyone, I have an announce! I have been learning CL the hard way:
+I read a lot, I wrote a lot of tutorials on the Cookbook and on my
+blog, I had to ask a lot of questions, I built libraries and softwares
+and I stumbled across a lot of issues. Often, my problems were not due
+to the language itself, but rather in interfacing with the outside world.
+
+So, **I built a Common Lisp course in videos** with the goal for it to be
+**the most efficient way to learn Common Lisp today**. It is on Udemy:
+
+- 📹 [Common Lisp programming: from novice to effective developer](https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358) ⭐
+
+You can find the table of contents details, notes and exercises on
+[its Github](https://github.com/vindarel/common-lisp-course-in-videos/). It
+takes so much time that it is not available for free. Check my Twitter or [my blog](https://lisp-journey.gitlab.io/) for discounts (at the beginning of the month, often). Thanks for your support, it helps.
+
+See also other videos I post on Youtube sometimes:
+
+- [How to create a full-featured Common Lisp project from scratch](https://www.youtube.com/watch?v=XFc513MJjos&feature=youtu.be)
+- [Web requests in Common Lisp: how to fetch the Github API](https://www.youtube.com/watch?v=TAtwcBh1QLg)
+- etc
+
+
 ## Online ##
 
 Beginner
@@ -612,6 +634,7 @@ Intermediate
 
 * [CL Cookbook](https://lispcookbook.github.io/cl-cookbook/)
 * [Common Lisp tips][152] - A collaborative resource with useful tips and tricks.
+- 📹 [Common Lisp programming: from novice to effective developer](https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358), a video course tutorial on the Udemy platform, by me (@vindarel) (CL Cookbook, lisp-journey) (*paywall*, some free videos).
 
 Advanced
 --------
