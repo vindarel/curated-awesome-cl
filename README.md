@@ -610,10 +610,8 @@ Beginner
 Intermediate
 ------------
 
-* [CL Cookbook](https://lispcookbook.github.io/cl-cookbook/testing.html#gitlab-ci)
-* [Common Lisp tips][152] - A blog with useful tips and tricks.
-* [CommonQt tutorial][154] - A nice introduction to CommonQt.
-* [A tutorial for creating and publishing open-source Common Lisp software][27] - A handy tutorial for using Quicklisp and a bunch of other tools to create and publish a project in Common Lisp.
+* [CL Cookbook](https://lispcookbook.github.io/cl-cookbook/)
+* [Common Lisp tips][152] - A collaborative resource with useful tips and tricks.
 
 Advanced
 --------
@@ -679,7 +677,6 @@ Contribute upstream to the awesome-cl list or write your own curated one, and sh
 [24]: http://minispec.org/index.html
 [25]: http://clqr.boundp.org/index.html
 [26]: http://www.paulgraham.com/onlisp.html
-[27]: http://arxiv.org/abs/1209.5626
 [28]: http://quickdocs.org/
 [29]: https://github.com/slime/slime
 [31]: https://github.com/fukamachi/mito
@@ -780,7 +777,7 @@ Contribute upstream to the awesome-cl list or write your own curated one, and sh
 [148]: https://bitbucket.org/tarballs_are_good/interface
 [149]: https://common-lisp.net/project/alexandria/
 [150]: https://github.com/TBRSS/serapeum/
-[152]: http://lisptips.com/
+[152]: https://github.com/lisp-tips/lisp-tips/issues/
 [153]: https://github.com/ahungry/glyphs/
 [154]: https://cheryllium.wordpress.com/2014/02/22/commonqt-tutorial-1/
 [155]: https://github.com/dmitryvk/cl-sqlite
