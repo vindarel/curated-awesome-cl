@@ -99,10 +99,11 @@ Community
 
 * [Common Lisp Cookbook](https://lispcookbook.github.io/cl-cookbook/)
 * [Reddit](https://www.reddit.com/r/lisp/)
-* [Quickdocs](https://quickdocs.org/) - Ready and up to date documentation for all Common Lisp projects.
+* [Lisp Discord Server](https://discord.gg/hhk46CE)
+* [CL CommunitySpec](https://cl-community-spec.github.io/pages/index.html) - the CL spec, nicely rendered and searchable.
+
 
 And see below, learning and tutorials.
-
 
 
 Text Editor Resources
@@ -118,12 +119,13 @@ This contains plugins and other goodies for various text editors.
 
 * [Portacle][201] - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
 * [SLIME][29] - Superior Lisp Interaction Mode for Emacs; a full-blown environment for Common Lisp inside of Emacs. Public domain.
+* [plain-common-lisp](https://github.com/pascalcombier/plain-common-lisp/) -  A trivial way to get a native Common Lisp environment on Windows.
 
 ## Vim ##
 
 * [SLIMV][187] - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
 
-## Atom ##
+## Atom / Pulsar ##
 
 * [SLIMA](https://github.com/neil-lindquist/SLIMA/) allows you to
   interactively develop Common Lisp code, helping turn Atom into a
@@ -141,8 +143,9 @@ This contains plugins and other goodies for various text editors.
 
 ## REPLs ##
 
-* [cl-repl](https://github.com/koji-kojiro/cl-repl) - an ipython-like REPL. With completion, shell commands, magic commands, debugger, etc. [MIT][200]. With [colorthemes](https://github.com/koji-kojiro/lem-pygments-colorthemes).
-* [sbcli](https://github.com/hellerve/sbcli) - a simple readline REPL that doesn't get in your way. It doesn't have a debugger, it just prints the error. With optional syntax highlighting and useful shortcuts.
+* [cl-repl](https://github.com/lisp-maintainers/cl-repl) - an ipython-like REPL. With completion, shell commands, magic commands, debugger, etc. [GPL3][2]. With [colorthemes](https://github.com/koji-kojiro/lem-pygments-colorthemes).
+
+[How to use rlwrap and linedit with SBCL](https://gist.github.com/vindarel/2309154f4e751be389fa99239764c363).
 
 Implementations
 ===============
@@ -153,6 +156,7 @@ Implementations
   - *It does thorough type checking*
   - *Google contributes to SBCL!*
 * [Clozure Common Lisp](https://ccl.clozure.com/docs/ccl.html), for its fast compilation time, and to use on 32bits Raspberry Pi.
+* If you are a pro or have $$$, check out LispWorks' features.
 
 But there are more, see other ressources.
 
@@ -165,11 +169,12 @@ Library Manager
 ===============
 
 * [Quicklisp][16] - *The* library manager.
-  - *You just must use it, then learn other tools that complement it.
+  - *You just must use it, then learn other tools that complement it.*
+  - [ql-https](https://github.com/rudolfochrist/ql-https) - shell out to cURL and use HTTPS by default.
 * [Ultralisp](https://ultralisp.org/) - A quicklisp distribution that builds every five minutes (instead of one month for Quicklisp), and requires 3 clicks to add your project to it (instead of opening an issue and waiting for Quicklisp).
-* [Roswell](https://github.com/roswell/roswell) - A Lisp implementation installer, script launcher and more.
-  - *it's useful, but not necessary to getting started.*
-* [qlot][135] - A project-local library installer, similar to Bundler or Carton.
+* [Qlot][135] - A project-local library installer. Uses HTTPS.
+* [ocicl](https://github.com/ocicl/ocicl) - a new and experimental alternative to Quicklisp, built on tools from the world of containers. [MIT][200].
+
 
 Tools
 =====
@@ -177,7 +182,7 @@ Tools
 These are applications or bits of code that make development in Common Lisp easier without being Common Lisp libraries themselves.
 
 * [cl-cookieproject](https://github.com/vindarel/cl-cookieproject) - my project skeleton, more complete than the others. *New in 2021 :)*
-* [quicksearch][140] - Look up online libraries from the REPL. *This one helped me sometimes*.
+- [Quicksearch](https://github.com/lisp-maintainers/quicksearch) - search for projects on GitHub, Quicklisp, Cliki and Bitbucket. MIT.  *This one helped me sometimes*.
 
 Web
 ===
@@ -186,10 +191,14 @@ HTTP clients
 ------------
 * [Dexador][199] - An HTTP client: `(dex:get "http://url.com")`.
 
+A video: [How to request the GitHub API](https://www.youtube.com/watch?v=TAtwcBh1QLg).
+
 Web frameworks
 --------------
 
 There are more on the awesome-cl list, and in the wild. Those are my choices.
+
+I also published a new learning resource for web development in CL: [https://web-apps-in-lisp.github.io/](https://web-apps-in-lisp.github.io/).
 
 * Hunchentoot documentation on a "read the docs" style: https://common-lisp-libraries.readthedocs.io/hunchentoot/
 * 👍 [easy-routes](https://github.com/mmontone/easy-routes) - a routes handling system on top of Hunchentoot. It supports dispatch based on HTTP method, arguments extraction from the url path, decorators, url generation from route name, etc.
@@ -201,12 +210,13 @@ There are more on the awesome-cl list, and in the wild. Those are my choices.
   - *it seems great*
 * [radiance](https://github.com/Shirakumo/radiance) - An extensible framework library and multi-application CMS.
 * [cl-rest-server](https://github.com/mmontone/cl-rest-server) - a library for writing REST web APIs. Features validation with schemas, annotations for logging, caching, permissions or authentication, documentation via Swagger, etc. [MIT][200].
-* [Weblocks](https://github.com/40ants/weblocks) - A widgets-based framework with a built-in ajax update mechanism that "solves the JavaScript problem". [LLGPL][8].
-  - *see its getting started tutorial, and come follow in the Gitter chat. I don't find Weblocks readme, though I built a toy web app with success. Things are happening there.*
+* [Weblocks (Reblocks)](https://github.com/40ants/reblocks) - A widgets-based framework with a built-in ajax update mechanism that "solves the JavaScript problem". [LLGPL][8].
+  - *it's cool but it's its own thing. It won't solve everything for you.*
+* [CLOG](https://github.com/rabbibotton/clog) - The Common Lisp Omnificent GUI. Uses web technology to produce graphical user interfaces for applications locally or remotely. [BSD_3Clause][15].
+  - CLOG is based on the ideas of GNOGA, a framework the author wrote for Ada and used in commercial production code since 2013.
 
-There are more projects, more or less discontinued but interesting. See the other ressources.
 
-*my 2 cents*: I find Clack-based frameworks (like Caveman) tedious to use. Be sure to test others (Wookie, Snooze,…). Don't juge projects uniquely by their numbers of Github stars.
+*my 2 cents*: I find Clack-based frameworks tedious to use. Be sure to test others (Wookie, Snooze,…). Don't juge projects uniquely by their numbers of Github stars.
 
 
 HTTP Servers
@@ -214,13 +224,10 @@ HTTP Servers
 * [Hunchentoot](https://edicl.github.io/hunchentoot/) - the CL web server.
 * [Clack][90] - A web application environment inspired by Rack and WSGI.
   - *but it's seldom documented :/*
+  - see https://nmunro.github.io/2024/12/29/ningle-1.html
 * [wookie][109] - Asynchronous HTTP server. [Expat][14].
-* [woo](https://github.com/fukamachi/woo) - A fast non-blocking HTTP server on top of libev. [MIT][200].
+* [woo](https://github.com/fukamachi/woo) - A fast non-blocking HTTP server on top of nodejs' libev. [MIT][200].
 
-Clack extensions:
-
-* [clack-errors][94] - Error page middleware for Clack. [LLGPL][8].
-* [hermetic][95] - Security for Clack-based web applications. [Expat][14].
 
 Parsing html
 ------------
@@ -228,6 +235,9 @@ Parsing html
 [Cookbook: web scraping](https://lispcookbook.github.io/cl-cookbook/web-scraping.html)
 
 * [Plump][71] - A lenient HTTP/XML parser, tolerand on malformed markup. [Artistic License 2.0][51]. Best used with [lquery][72] and [clss][202].
+* [cl-html5-parser](https://github.com/rotatef/cl-html5-parser) -  HTML5 parser for Common Lisp. GPL3.0.
+  * a port of the Python library html5lib.
+  * compared to Plump: Plump is a mix of an XML and an HTML parser and breaks on some HTML rules ([example](https://github.com/Shinmera/plump/issues/50)), while cl-html5-parser is a fully compliant HTML parser.
 
 Querying HTML/DOM
 -----------------
@@ -243,9 +253,8 @@ HTML generators and templates
 * [Ten](https://github.com/mmontone/ten) - by Djula's maintainer, a more flexible framework, where we can write lisp expressions in templates.
   - *Quite new, didn't try.*
 * [spinneret][191] - Common Lisp HTML5 generator.
-* [cl-markup][101] - Modern markup generation library. [LLGPL][8].
+* [markup](https://github.com/moderninterpreters/markup) - JSX-like reader-macro to let you write HTML code inside of Common Lisp.
 
-There are at least two for JSX-like mix of HTML inside Lisp. Crazy.
 
 URI handling
 ------------
@@ -281,7 +290,11 @@ Email
 Third-party APIs
 ----------------
 
+It's just a selection you know. See awesome-cl and Google!
+
 * [Aws-sign4](https://github.com/rotatef/aws-sign4) - Common Lisp library for Amazon Web Services signing version 4. [GNU GPL3][2].
+* [aws-sdk-lisp](https://github.com/pokepay/aws-sdk-lisp/) - Provides interfaces for each AWS services as individual systems. [BSD_2Clause][17].
+  * incluse dozens of services: dsn, appstream, athena, cloudfront, codedeploy, cognito-*, directconnect, dynamodb, dms, elasticache, email, events, kinesis, machinelearning, monitoring, s3, sms, storagegateway, workspaces…
 * [north](https://shinmera.github.io/north) - The successor to the
   South (Simple OaUTH) library, implementing the full oAuth 1.0a
   protocol, both client and server sides. Using North you can easily
@@ -305,7 +318,13 @@ XML
 JSON
 ====
 
-* [jonathan](https://github.com/Rudolph-Miller/jonathan) - A JSON encoder and decoder. [MIT][200].
+* 👍 [jzon](https://github.com/Zulu-Inuoe/jzon/) - a correct, safe and fast JSON parser. [MIT][200].
+  * jzon is the only CL JSON library which correctly declines all invalid inputs per the official JSON test suite and accepts all valid inputs per that suite.
+  * it doesn't crash on invalid input (jsown), doesn't choke on large datasets (Jonathan), and more.
+  * v1.0 released in the Quicklisp dist of February, 2023.
+  * "I believe jzon to be the superior choice and hope for it to become the new, true de-facto library in the world of JSON-in-CL once and for all."
+* [shasht](https://github.com/yitzchak/shasht) -  Common Lisp JSON reading and writing for the Kzinti. [MIT][14].
+  - " Shasht is one of the two new libraries that I particularly like and is already in quicklisp. It is fast, it handles null correctly, it encodes CLOS objects, structures and hash-tables. It can also do incremental encoding." Sabra Crolleton.
 
 CSV
 ===
@@ -333,6 +352,8 @@ Interaction with other languages
 ## Python ##
 
 * [py4cl](https://github.com/bendudson/py4cl) - A library that allows Common Lisp code to access Python libraries. It is basically the inverse of cl4py. [MIT][200].
+  * [py4cl2-cffi](https://github.com/digikar99/py4cl2-cffi) - CFFI based alternative to py4cl2.
+    * "When capable, the CFFI approach can be a 50 times faster than py4cl2."
 * [cl4py](https://github.com/marcoheisig/cl4py) - The library cl4py (pronounce as clappy) allows Python programs to call Common Lisp libraries. [MIT][200].
 
 See also [async-process](https://github.com/cxxxr/async-process/).
@@ -341,6 +362,8 @@ Game Development
 ================
 
 * see the awesome list.
+
+A great paper: [Experience report: Kandria, a game in Common Lisp](https://raw.githubusercontent.com/Shinmera/talks/master/els2023-kandria/paper.pdf).
 
 Graphics
 ========
@@ -365,15 +388,17 @@ https://lispcookbook.github.io/cl-cookbook/gui.html
 
 * [ltk][179] - A binding for the Tk toolkit. [LLGPL][8] or [GNU LGPL2.1][11].
   - *if you want a simple GUI and to be started the fastest, try Ltk!*
-* [nodgui](https://notabug.org/cage/nodgui) - Bindings for the Tk toolkit, based on Ltk, with syntax sugar and additional widgets.
+  * [LTk Examples](https://peterlane.netlify.app/ltk-examples/) - Provides LTk examples for the tkdocs tutorial.
+  * [LTk Plotchart](https://peterlane.netlify.app/ltk-plotchart/) - A wrapper around the tklib/plotchart library to work with LTk. This includes over 20 different chart types (xy-plots, gantt charts, 3d-bar charts etc...).
+* [nodgui](https://codeberg.org/cage/nodgui) - Bindings for the Tk toolkit, based on Ltk, with syntax sugar and additional widgets. [LLGPL][8].
   - *nodgui defines more widgets and syntax suger for Ltk. His maintainer his reactive.*
+  * 🎨 supports [tk custom themes](https://wiki.tcl-lang.org/page/List+of+ttk+Themes), such as [ttkthemes](https://ttkthemes.readthedocs.io/en/latest/themes.html) and [Forest-ttk-theme](https://github.com/rdbende/Forest-ttk-theme).
+  * supports an SDL frame as an alternative to the Tk canvas when fast rendering is needed. For 2D (pixel-based) and 3D rendering (using openGL).
+* 🆕 [cl-gtk4](https://github.com/bohonghuang/cl-gtk4) -  GTK4/Libadwaita/WebKit binding for Common Lisp. [LGPL3][9].
 * [IUP](https://github.com/lispnik/iup/) - CFFI bindings to the [IUP](https://www.tecgraf.puc-rio.br/iup/) Portable User Interface library (pre-ALPHA). IUP is cross-platform (Windows, macOS, GNU/Linux, with new Android, iOs, Cocoa and Web Assembly drivers), has many widgets, has a small api and is actively developed.
   - *More advanced than Tk, less than Qt. Also very easy to use. The Lisp library is very well done. Totally deserves more attention.*
-* [Qtools](https://github.com/Shinmera/qtools/) - A Qt4 toolkit, based on CommonQt.
-  * *outdated. There's a Qt5 wrapper for ECL. I heard a Qt5 Qtools is coming…*
 * [ceramic][192] - Desktop web apps with Common Lisp. [Expat][14].
-  * [Electron-lisp-boilerplate](https://github.com/mikelevins/electron-lisp-boilerplate) - A rudimentary boilerplate for building Electron apps with embedded Lisp helper processes.
-  * Electron app skeleton: [electron-sbcl-sqlite](https://github.com/mikelevins/electron-sbcl-sqlite/)
+  * see: https://lisp-journey.gitlab.io/blog/three-web-views-for-common-lisp--cross-platform-guis/
 * [LispWork's CAPI](http://www.lispworks.com/products/capi.html) - A portable GUI toolkit, with mobile runtime. Proprietary, but comes with a free version.
   - *the free version is easy to install, we can try it.*
 
@@ -393,14 +418,22 @@ Numerical and Scientific
 
 *I am not knowledgeable here*
 
-* [cl-spark][87] - Generates sparkline strings for lists of numbers. [Expat][14].
-* [GSLL][84] - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. [GNU LGPL2.1][11].
 * [lisp-stat](https://github.com/lisp-stat) - an environment for statistical computing, conceptually similar to R, that is also suitable for front-line production deployments. "It grew out of a desire to have an environment for rapidly prototyping analytical and A.I. solutions, and move directly to production environments with minimal friction."
   * https://lisp-stat.dev/
   * ships Luke Tierney's [XLisp-Stat](https://homepage.stat.uiowa.edu/~luke/xls/xlsinfo/) (a predecessor of R) as well as newer libraries.
-* [common-lisp-stat][85] - Common Lisp statistics library. [FreeBSD][39].
+* [numcl](https://github.com/numcl/numcl) - Numpy clone in Common Lisp. [LGPL3][9].
+* [numericals](https://github.com/digikar99/numericals) -  SIMD powered simple-math numerical operations on arrays for Common Lisp through CFFI [still experimental]. MIT.
+  * documentation: https://digikar99.github.io/numericals/
+* [dense-arrays](https://github.com/digikar99/dense-arrays) -  Numpy like array object for common lisp. MIT.
+* [Petalisp](https://github.com/marcoheisig/Petalisp) - an attempt to
+  generate high performance code for parallel computers by
+  JIT-compiling array definitions. It works on a more
+  fundamental level than NumPy, by providing even more powerful
+  N-dimensional arrays, but just a few building blocks for working on
+  them. [AGPL-3.0][agpl3].
 * [lisp-matrix][86] - A matrix package. [FreeBSD][39].
 * [maxima][165] - Computer algebra system. Not available on Quicklisp. [GNU GPL3][2].
+* [GSLL][84] - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. [GNU LGPL2.1][11].
 
 
 Parallelism and Concurrency
@@ -464,31 +497,14 @@ Unit Testing
 [Cookbook: testing and continuous integration](https://lispcookbook.github.io/cl-cookbook/testing.html)
 
 * [FiveAM][123] - Simple regression testing framework.
-* [Mockingbird](https://github.com/Chream/mockingbird) - A small
-  stubbing and mocking library for Common Lisp. Can also check wether
-  a stubbed function was called, how many times and with which
-  arguments. [MIT][200].
-* [Check-it](https://github.com/DalekBaldwin/check-it) - A QuickCheck-style randomized property-based testing. [LLGPL][8].
+  * [fiveam-matchers](https://github.com/tdrhq/fiveam-matchers/) -  an extensible, composable matchers library for fiveam. [Apache2.0][89].
+* [Parachute](https://github.com/Shinmera/parachute) - An extensible and cross-compatible testing framework. With test dependencies, conditions, fixtures and restarts. [zlib][33].
 * [cl-coveralls](https://github.com/fukamachi/cl-coveralls) - a helper
   library to post test coverage to Coveralls. See
   [continuous-integration on lisp-lang.org](http://lisp-lang.org/learn/continuous-integration)
   and
   [SBCL's code coverage tool](http://www.sbcl.org/manual/index.html#sb_002dcover). [FreeBSD][39].
 
-
-*I think Parachute and Rove are unfinished and not enough developped.*
-
-
-Continuous Integration
-======================
-
-[Cookbook: testing and continuous integration](https://lispcookbook.github.io/cl-cookbook/testing.html)
-
-* Travis CI: we can use Roswell on Travis CI: see
-  [a tutorial](https://github.com/snmsts/roswell/wiki/Using-with-Travis-CI)
-  (cl-travis doesn't work with Travi's Docker based architecture).
-* [cl-coveralls](https://github.com/fukamachi/cl-coveralls)
-* Gitlab CI: https://lispcookbook.github.io/cl-cookbook/testing.html#gitlab-ci
 
 Utilities
 =========
@@ -500,13 +516,11 @@ Language extensions
   - *you must know that one.*
 * [serapeum](https://github.com/TBRSS/serapeum/) - Another general-purpose utility library.
   - *lots of good stuff. Definitely worth checking out.*
-* [rutils](https://github.com/vseloved/rutils) - radical yet reasonable syntactic utilities for Common Lisp.
-  - *also lots of good stuff. For example the hash-table utilities. I sometimes dislike the naming and the symbols used.*
 * :star: [trivia](https://github.com/guicho271828/trivia/) - Optimized pattern-matching library. [LLGPL][8].
 * [generic-cl](https://github.com/alex-gutev/generic-cl/) - Generic function interface to standard Common Lisp functions (equality, comparison, arithmetic, objects, iterator, sequences,…). [MIT][200]. See also the more lightweight [generic-comparability](https://github.com/pnathan/generic-comparability). [LLGPL][8].
 * [FSet][164] - A functional, set-theoretic collections data structure library. [LLGPL][8].
 * [trivial-types][145] - Trivial type definitions. [LLGPL][8].
-* [cl-algebraic-data-type][146] - A library for defining algebraic data types in a similar spirit to Haskell or ML. [3-clause BSD][15].
+
 
 Changing the syntax
 -------------------
@@ -528,19 +542,13 @@ Iteration
   - *it has one clause that works for all data structures.*
 * [trivial-do](https://github.com/yitzchak/trivial-do/) -  Additional dolist style macros for Common Lisp. [MIT][200].
 * [doplus](https://bitbucket.org/alessiostalla/doplus/wiki/Home) – another extensible iteration library, similar to :for.
-* [picl](https://github.com/anlsh/picl) - An (almost) complete port of Python's itertools package, complete with laziness where applicable, and not relying on cl-cont. [MIT][200].
 * [gtwiwtg](https://github.com/cbeo/gtwiwtg) - A lazy sequences library. Similar to 'series' but not as complete. However it has a 'modern' API with stuff like `take`, `filter`, `for`, `fold`, etc. that is easy to use.
   - *this ones looks like THE successor to Series*
+* [cl-transducers](https://github.com/fosskers/cl-transducers/) - Ergonomic, efficient data processing. [LGPL3][9].
+  * "Transducers are an ergonomic and extremely memory-efficient way to process a data source. Here “data source” means simple collections like Lists or Vectors, but also potentially large files or generators of infinite data."
+  * "It is, in general, the most complete implementation of the Transducer pattern."
+  * a "modern" API with `map`, `filter`, `take`, `repeat`, `cycle`, `fold`…
 
-Lambda shorthands
------------------
-
-* [fn](https://github.com/cbaggers/fn) - a couple of lambda shorthand macros. `(fn* (+ _ _))  -->  (lambda (_) (+ _ _))`. Public domain.
-* [f-underscore](https://gitlab.common-lisp.net/bpm/f-underscore) - a tiny library of functional programming utils. `(f_ (+ _ _)) -> (lambda (_) (+ _ _))`. Public domain.
-* [cl-punch](https://github.com/windymelt/cl-punch/) - Scala-like anonymous lambda literals. `(mapcar ^(* 2 _) '(1 2 3 4 5))`. [MIT][200].
-
-
-See also [Rutils](https://github.com/vseloved/rutils).
 
 System
 ------
@@ -552,12 +560,6 @@ spawning processes, and much more.
 
 [Cookbook: interfacing with your OS](https://lispcookbook.github.io/cl-cookbook/os.html)
 
-I/O
----
-
-* [iolib][112] - I/O library. [Expat][14].
-* [fast-io][113] - Fast octet-vector/stream I/O. [3-clause BSD][15].
-* [trivial-utf8][119] - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.
 
 Data validation
 ---------------
@@ -672,6 +674,12 @@ Advanced
 * [Object-Oriented Programming in Common Lisp: A Programmer's Guide to CLOS][21] - An old, but very thorough book on CLOS.
 * [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp][157] - A book on programming AI that covers some advanced Lisp.
 
+Web development tutorials
+-------------------------
+
+- [Web Apps in Lisp: Know-how](https://web-apps-in-lisp.github.io/).
+- Ningle tutorial: https://nmunro.github.io/2024/12/29/ningle-1.html
+
 
 Contributing
 ============
@@ -738,7 +746,6 @@ Contribute upstream to the awesome-cl list or write your own curated one, and sh
 [82]: https://github.com/Shinmera/colleen
 [83]: https://www.common-lisp.net/project/cl-irc/
 [84]: https://common-lisp.net/project/gsll/
-[85]: https://github.com/blindglobe/common-lisp-stat/
 [86]: https://github.com/blindglobe/lisp-matrix
 [87]: https://github.com/tkych/cl-spark
 [88]: https://github.com/vseloved/cl-nlp
