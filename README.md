@@ -430,7 +430,7 @@ Numerical and Scientific
   JIT-compiling array definitions. It works on a more
   fundamental level than NumPy, by providing even more powerful
   N-dimensional arrays, but just a few building blocks for working on
-  them. [AGPL-3.0][agpl3].
+  them. [AGPL-3.0][203].
 * [lisp-matrix][86] - A matrix package. [FreeBSD][39].
 * [maxima][165] - Computer algebra system. Not available on Quicklisp. [GNU GPL3][2].
 * [GSLL][84] - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. [GNU LGPL2.1][11].
@@ -540,6 +540,7 @@ Iteration
   unlike iterate it does not require code-walking and is easier to
   extend.
   - *it has one clause that works for all data structures.*
+* [charje.loop](https://git.sr.ht/~charje/loop) - An extensible looping macro with a consistent interface. [AGPL-3.0][203].
 * [trivial-do](https://github.com/yitzchak/trivial-do/) -  Additional dolist style macros for Common Lisp. [MIT][200].
 * [doplus](https://bitbucket.org/alessiostalla/doplus/wiki/Home) – another extensible iteration library, similar to :for.
 * [gtwiwtg](https://github.com/cbeo/gtwiwtg) - A lazy sequences library. Similar to 'series' but not as complete. However it has a 'modern' API with stuff like `take`, `filter`, `for`, `fold`, etc. that is easy to use.
@@ -856,3 +857,4 @@ Contribute upstream to the awesome-cl list or write your own curated one, and sh
 [200]: https://opensource.org/licenses/MIT
 [201]: https://shinmera.github.io/portacle/
 [202]: https://github.com/Shinmera/CLSS
+[203]: https://www.gnu.org/licenses/agpl-3.0.html
