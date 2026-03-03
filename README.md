@@ -737,6 +737,7 @@ Contribute upstream to the awesome-cl list or write your own curated one, and sh
   <a href="https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358">
     <img src="udemy-photo-laptop--lambda.png" style="max-width: 500px">
   </a>
+  <h4 align="center"> <a href="https://github.com/vindarel/common-lisp-course-in-videos/">learn more</a> <h4>
 </p>
 
 
