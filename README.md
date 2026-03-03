@@ -732,6 +732,14 @@ Contributing
 
 Contribute upstream to the awesome-cl list or write your own curated one, and share it!
 
+<p>
+  <h2 align="center">  <a align="center" href="https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358"> Common Lisp course: learn Lisp efficiently</a> </h2>
+  <a href="https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358">
+    <img src="udemy-photo-laptop--lambda.png" style="max-width: 500px">
+  </a>
+</p>
+
+
 
 [2]: http://www.gnu.org/copyleft/gpl.html
 [3]: http://www.gnu.org/software/classpath/license.html
