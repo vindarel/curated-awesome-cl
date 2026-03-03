@@ -28,71 +28,77 @@ All libraries listed here are available from [Quicklisp][16].
 This is released under the GNU Free Documentation License - its text
 is provided in the LICENSE file.
 
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
 - [My Curated Awesome Common Lisp](#my-curated-awesome-common-lisp)
 - [Community](#community)
-- [Development Environments](#development-environments)
 - [Text Editor Resources](#text-editor-resources)
-    - [Emacs](#emacs)
-    - [Vim](#vim)
-    - [Lem](#lem)
-    - [Atom](#atom)
-    - [VSCode](#vscode)
-    - [Sublime Text](#sublime-text)
-    - [Notebooks](#notebooks)
-    - [REPLs](#repls)
+  - [ICL: improved REPL for the terminal an the browser](#icl-improved-repl-for-the-terminal-an-the-browser)
+  - [Emacs](#emacs)
+  - [Vim](#vim)
+  - [Atom / Pulsar - maybe the second best editor plugin](#atom--pulsar---maybe-the-second-best-editor-plugin)
+  - [VSCode](#vscode)
+  - [Notebooks](#notebooks)
+  - [REPLs](#repls)
+  - [Online REPLs](#online-repls)
 - [Implementations](#implementations)
 - [Build Systems](#build-systems)
 - [Library Manager](#library-manager)
 - [Tools](#tools)
 - [Web](#web)
-    - [HTTP clients](#http-clients)
-    - [HTTP Servers](#http-servers)
-    - [Web frameworks](#web-frameworks)
-    - [Parsing html](#parsing-html)
-    - [Querying HTML/DOM](#querying-htmldom)
-    - [HTML generators and templates](#html-generators-and-templates)
-    - [URI handling](#uri-handling)
-    - [Javascript](#javascript)
-    - [Third-party APIs](#third-party-apis)
+  - [HTTP clients](#http-clients)
+  - [Web frameworks](#web-frameworks)
+  - [HTTP Servers](#http-servers)
+  - [Parsing html](#parsing-html)
+  - [Querying HTML/DOM](#querying-htmldom)
+  - [HTML generators and templates](#html-generators-and-templates)
+  - [URI handling](#uri-handling)
+  - [Javascript](#javascript)
+  - [Email](#email)
+  - [Third-party APIs](#third-party-apis)
 - [XML](#xml)
 - [JSON](#json)
 - [CSV](#csv)
 - [Database and ORMs](#database-and-orms)
-- [Foreign Function Interface](#foreign-function-interface)
+- [Interaction with other languages](#interaction-with-other-languages)
+  - [Python](#python)
 - [Game Development](#game-development)
 - [Graphics](#graphics)
 - [GUI](#gui)
 - [Natural Language Processing](#natural-language-processing)
 - [Numerical and Scientific](#numerical-and-scientific)
 - [Parallelism and Concurrency](#parallelism-and-concurrency)
+  - [Actors pattern](#actors-pattern)
+  - [Event processing](#event-processing)
+  - [Job processing](#job-processing)
 - [Regex](#regex)
 - [Unit Testing](#unit-testing)
-- [Continuous Integration](#continuous-integration)
 - [Utilities](#utilities)
-    - [Language extensions](#language-extensions)
-    - [System](#system)
-    - [I/O](#io)
-    - [Data validation](#data-validation)
-    - [Date and time](#date-and-time)
-    - [Logging](#logging)
-    - [Other](#other)
-- [Crypto](#crypto)
+  - [Language extensions](#language-extensions)
+  - [Changing the syntax](#changing-the-syntax)
+  - [Iteration](#iteration)
+  - [System](#system)
+  - [Data validation](#data-validation)
+  - [Date and time](#date-and-time)
+  - [Logging](#logging)
+- [Cryptography](#cryptography)
 - [Learning and Tutorials](#learning-and-tutorials)
-    - [Online](#online)
-    - [Beginner](#beginner)
-    - [Intermediate](#intermediate)
-    - [Advanced](#advanced)
-    - [Reference](#reference)
-    - [Offline](#offline)
-    - [Beginner](#beginner)
-    - [Intermediate](#intermediate)
-    - [Advanced](#advanced)
+  - [Online](#online)
+  - [Beginner](#beginner)
+  - [Intermediate](#intermediate)
+  - [Advanced](#advanced)
+  - [Reference](#reference)
+  - [Showcase](#showcase)
+  - [Offline](#offline)
+  - [Beginner](#beginner-1)
+  - [Intermediate](#intermediate-1)
+  - [Advanced](#advanced-1)
+  - [Web development tutorials](#web-development-tutorials)
 - [Contributing](#contributing)
 
 <!-- markdown-toc end -->
+
 
 Community
 =========
@@ -115,9 +121,26 @@ This contains plugins and other goodies for various text editors.
 
 [Cookbook: editor resources](https://lispcookbook.github.io/cl-cookbook/editor-support.html)
 
+## ICL: improved REPL for the terminal an the browser
+
+- [ICL](https://github.com/atgreen/icl/) - easy-to-use Common Lisp REPL with many new features.
+  - easy to install (.deb and other installers)
+  - easy to use: no interactive debugger but clean stacktraces, real code completion with a nice interactive menu (this isn't readline, it is using a proper TUI library)
+  - browser REPL
+    - with new features: display data structures as tables and graphs (or more)
+    - watch variables
+  - interactive variables inspector
+  - possible connection from Emacs and Slime: you start a websocket connection with the browser, you code in Emacs, but you get the browser's features (display variables, etc).
+
+ICL doesn't replace a real IDE but it is a GREAT way for getting started.
+
+*This was co-authored with LLMs.*
+
+
 ## Emacs ##
 
 * [Portacle][201] - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.
+  * *it is unmaintained and it is getting old (old Emacs version), but if it works for you, it is a good way for getting started.*
 * [SLIME][29] - Superior Lisp Interaction Mode for Emacs; a full-blown environment for Common Lisp inside of Emacs. Public domain.
 * [plain-common-lisp](https://github.com/pascalcombier/plain-common-lisp/) -  A trivial way to get a native Common Lisp environment on Windows.
 
@@ -125,7 +148,7 @@ This contains plugins and other goodies for various text editors.
 
 * [SLIMV][187] - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.
 
-## Atom / Pulsar ##
+## Atom / Pulsar - maybe the second best editor plugin
 
 * [SLIMA](https://github.com/neil-lindquist/SLIMA/) allows you to
   interactively develop Common Lisp code, helping turn Atom into a
@@ -135,6 +158,7 @@ This contains plugins and other goodies for various text editors.
 
 * [alive](https://github.com/nobody-famous/alive) -  Common Lisp Extension for VSCode. Public domain.
   * see the Cookbook: [using VSCode with Alive](https://lispcookbook.github.io/cl-cookbook/vscode-alive.html)
+  * *it might need more love but it's getting there.*
 
 
 ## Notebooks ##
@@ -143,18 +167,26 @@ This contains plugins and other goodies for various text editors.
 
 ## REPLs ##
 
+* ICL as mentioned above
 * [cl-repl](https://github.com/lisp-maintainers/cl-repl) - an ipython-like REPL. With completion, shell commands, magic commands, debugger, etc. [GPL3][2]. With [colorthemes](https://github.com/koji-kojiro/lem-pygments-colorthemes).
 
 [How to use rlwrap and linedit with SBCL](https://gist.github.com/vindarel/2309154f4e751be389fa99239764c363).
+
+## Online REPLs
+
+* check out how far JSCL has come since late 2025! https://jscl-project.github.io/
+* JupyterLite and JSCL, 100% in the browser (new in 2026): https://wiki3-ai.github.io/jscl-kernel/
+
 
 Implementations
 ===============
 
 * [SBCL][12] - A fork of CMUCL; compiles to machine code. [Standard compliance][13]. Public domain, with some parts under [Expat][14] and [3-clause BSD][15].
-  - *Just use it if you don't know*
+  - *Just use it if you don't know what do use*
   - *Install it from your package manager: `apt install sbcl`*
   - *It does thorough type checking*
   - *Google contributes to SBCL!*
+  - *It is very active and constantly improves.*
 * [Clozure Common Lisp](https://ccl.clozure.com/docs/ccl.html), for its fast compilation time, and to use on 32bits Raspberry Pi.
 * If you are a pro or have $$$, check out LispWorks' features.
 
@@ -174,6 +206,7 @@ Library Manager
 * [Ultralisp](https://ultralisp.org/) - A quicklisp distribution that builds every five minutes (instead of one month for Quicklisp), and requires 3 clicks to add your project to it (instead of opening an issue and waiting for Quicklisp).
 * [Qlot][135] - A project-local library installer. Uses HTTPS.
 * [ocicl](https://github.com/ocicl/ocicl) - a new and experimental alternative to Quicklisp, built on tools from the world of containers. [MIT][200].
+  * *ocicl might be the next de-facto package manager, who knows? It's working well.*
 
 
 Tools
@@ -204,11 +237,8 @@ I also published a new learning resource for web development in CL: [https://web
 * 👍 [easy-routes](https://github.com/mmontone/easy-routes) - a routes handling system on top of Hunchentoot. It supports dispatch based on HTTP method, arguments extraction from the url path, decorators, url generation from route name, etc.
   - *I like it a lot, that's what I use to define routes.*
 * [Caveman][92] - A powerful web framework.
-  - *Written by E. Fukamachi, and with stars.*
-* [Wookie](https://github.com/orthecreedence/wookie) - Asynchronous HTTP server. [Expat][14].
-* [Snooze](https://github.com/joaotavora/snooze) - A RESTful web framework, built on Clack, where routes are just functions and HTTP conditions are just Lisp conditions. [LLGPL][8].
-  - *it seems great*
-* [radiance](https://github.com/Shirakumo/radiance) - An extensible framework library and multi-application CMS.
+  - *Written by E. Fukamachi, and with GitHub stars.*
+  - *Not full-featured, but makes defining routes and rendering templates easy.*
 * [cl-rest-server](https://github.com/mmontone/cl-rest-server) - a library for writing REST web APIs. Features validation with schemas, annotations for logging, caching, permissions or authentication, documentation via Swagger, etc. [MIT][200].
 * [Weblocks (Reblocks)](https://github.com/40ants/reblocks) - A widgets-based framework with a built-in ajax update mechanism that "solves the JavaScript problem". [LLGPL][8].
   - *it's cool but it's its own thing. It won't solve everything for you.*
@@ -267,7 +297,10 @@ Javascript
 ----------
 * [Parenscript][102] - A translator from Common Lisp to Javascript. [3-clause BSD][15].
 * [parse-js][104] - A package for parsing ECMAScript 3. [zlib][33].
-* [JSCL](https://github.com/jscl-project/jscl) - A CL-to-JS compiler designed to be self-hosting from day one. Lacks CLOS, format and loop.
+* [JSCL](https://github.com/jscl-project/jscl) - A CL-to-JS compiler designed to be self-hosting from day one.
+  * *since 2025 now has complete FORMAT support (backported from CMUCL)*
+  * *CLOS support with CLOSETTE (slow)*
+  * *very decent LOOP support*
 * [sigil](https://github.com/burtonsamograd/sigil) - A Parenscript to
 Javascript command line compiler and REPL. [MIT][200].
 
@@ -292,7 +325,6 @@ Third-party APIs
 
 It's just a selection you know. See awesome-cl and Google!
 
-* [Aws-sign4](https://github.com/rotatef/aws-sign4) - Common Lisp library for Amazon Web Services signing version 4. [GNU GPL3][2].
 * [aws-sdk-lisp](https://github.com/pokepay/aws-sdk-lisp/) - Provides interfaces for each AWS services as individual systems. [BSD_2Clause][17].
   * incluse dozens of services: dsn, appstream, athena, cloudfront, codedeploy, cognito-*, directconnect, dynamodb, dms, elasticache, email, events, kinesis, machinelearning, monitoring, s3, sms, storagegateway, workspaces…
 * [north](https://shinmera.github.io/north) - The successor to the
@@ -304,8 +336,7 @@ It's just a selection you know. See awesome-cl and Google!
 * [cl-irc](https://www.common-lisp.net/project/cl-irc/) - An IRC client library. [Expat][14].
 * [cl-openid](https://common-lisp.net/project/cl-openid/darcs/cl-openid/) - An implementation of OpenID. [LLGPL][8].
 * [cl-pushover](https://github.com/TeMPOraL/cl-pushover) -  Common Lisp bindings to Pushover. [MIT][200].
-* [cl-ses](https://github.com/CodyReichert/cl-ses/) - Library for AWS SES. [Expat][14].
-* [humbler](https://github.com/Shinmera/humbler) - A Tumblr API interface. [Artistic License 2.0][51].
+* *and more on awesome-cl*
 
 XML
 ===
@@ -331,6 +362,10 @@ CSV
 
 * [cl-csv][170] - A library for parsing CSV files.
   * *battle tested, used in the wild.*
+  * [documentation](https://github.com/AccelerationNet/cl-csv/blob/master/DOCUMENTATION.md)
+  * [example blog post](https://dev.to/vindarel/read-csv-files-in-common-lisp-cl-csv-data-table-3c9n).
+
+See also: cl-duckdb for fast parsing, [lisp-stat's data-frames `read-csv`](https://lisp-stat.dev/docs/manuals/data-frame/), [vellum-csv](https://github.com/sirherrbatka/vellum-csv/) (data frames library), vellum-duckdb.
 
 
 Database and ORMs
@@ -499,11 +534,6 @@ Unit Testing
 * [FiveAM][123] - Simple regression testing framework.
   * [fiveam-matchers](https://github.com/tdrhq/fiveam-matchers/) -  an extensible, composable matchers library for fiveam. [Apache2.0][89].
 * [Parachute](https://github.com/Shinmera/parachute) - An extensible and cross-compatible testing framework. With test dependencies, conditions, fixtures and restarts. [zlib][33].
-* [cl-coveralls](https://github.com/fukamachi/cl-coveralls) - a helper
-  library to post test coverage to Coveralls. See
-  [continuous-integration on lisp-lang.org](http://lisp-lang.org/learn/continuous-integration)
-  and
-  [SBCL's code coverage tool](http://www.sbcl.org/manual/index.html#sb_002dcover). [FreeBSD][39].
 
 
 Utilities
@@ -542,8 +572,7 @@ Iteration
   - *it has one clause that works for all data structures.*
 * [trivial-do](https://github.com/yitzchak/trivial-do/) -  Additional dolist style macros for Common Lisp. [MIT][200].
 * [doplus](https://bitbucket.org/alessiostalla/doplus/wiki/Home) – another extensible iteration library, similar to :for.
-* [gtwiwtg](https://github.com/cbeo/gtwiwtg) - A lazy sequences library. Similar to 'series' but not as complete. However it has a 'modern' API with stuff like `take`, `filter`, `for`, `fold`, etc. that is easy to use.
-  - *this ones looks like THE successor to Series*
+* [gtwiwtg](https://cicadas.surf/cgit/colin/gtwiwtg.git/about/) - A lazy sequences library. Similar to 'series' but not as complete. However it has a 'modern' API with stuff like `take`, `filter`, `for`, `fold`, etc. that is easy to use.
 * [cl-transducers](https://github.com/fosskers/cl-transducers/) - Ergonomic, efficient data processing. [LGPL3][9].
   * "Transducers are an ergonomic and extremely memory-efficient way to process a data source. Here “data source” means simple collections like Lists or Vectors, but also potentially large files or generators of infinite data."
   * "It is, in general, the most complete implementation of the Transducer pattern."
@@ -563,6 +592,7 @@ spawning processes, and much more.
 
 Data validation
 ---------------
+
 * [ratify][77] - A collection of utilities to ratify, validate and parse inputs. [Artistic License 2.0][51].
 * [clavier](https://github.com/mmontone/clavier) - General purpose validation library for Common Lisp. [MIT][200].
 * [json-schema](https://github.com/fisxoj/json-schema) - A library for validating data against schemas of drafts 4, 6, 7, and 2019-09 of the [JSON Schema](https://json-schema.org/) standard. [LLGPL][8].
@@ -584,13 +614,14 @@ Duration processing library built on top of local-time. [MIT][200].
 
 Logging
 -------
+
 * [log4cl][124] - Logging framework modelled after Log4J.
 
 There are more if you have special needs.
 
 
-Crypto
-======
+Cryptography
+============
 
 * [Ironclad][49] - A library of crypto functions for Common Lisp. Not considered secure, but is still useful for the message digest functions. [Expat][14].
 * [crypto-shortcuts][50] - Collection of common crypto shortcuts. [Artistic License 2.0][51].
@@ -652,6 +683,13 @@ Reference
 * [Common Lisp the Langauge][160] - The original standard for Common Lisp before the ANSI spec.
 * [Minispec][24] - A friendlier, but less-complete, version of CLHS. Also contains documentation for some commonly-used CL libraries (such as Alexandria).
 * [Quickdocs][28] - A reference for the libraries provided by Quicklisp.
+
+Showcase
+--------
+
+* 🔥 [lisp-screenshots.org](https://www.lisp-screenshots.org/)
+* [awesome-lisp-companies](https://github.com/azzamsa/awesome-lisp-companies/)
+
 
 ## Offline ##
 
